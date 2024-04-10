@@ -1,0 +1,1148 @@
+Question,Answer
+"# State:
+
+Purpose of Batch OSs",Collects programs and data together in a batch before processing
+"# State:
+
+3 functions/features of a batch OS","3 of:
+* Processes batches of data at regular intervals
+* No user interaction required
+* Batch processing carried out when least demand for processing power
+* Can be set up to run at specific times
+* Batches processed on a first-come-first-served basis"
+"# State:
+
+Purpose of Multi-tasking/Time-sharing OSs",Enables the use of a single computing resource for multiple uses at the same time
+"# State:
+
+3 functions/features of a multi-tasking/time-sharing OSs","3 of:
+* Involves processor carrying out multiple tasks at a time
+* Programs being used are eitehr waiting, runnable or running
+* OS schedules the processes to be exectured by the CPU
+* As the OS facilitates multi-tasking, several aplications can be stored in the RAM at same time complex to setup"
+"# State:
+
+Purpose of Real-time operating systems (RTOS)","Swtiches between tasks rapidly giving the impression that programs are being executed at the same time, Aids the management of different hardware resources and hosts the applications that run"
+"# State:
+
+3 purposes of real-time operating systems (RTOS)","3 of:
+* Typically used for embedded applications
+* Data is processed as soon as it is received by the processor
+* It is high performance - fast response time and based on user requirements
+* Priority scheduling
+* Higher security and reliability standards
+* It will always produce the same output if the same input is used - known as determinism"
+"# State:
+
+Purpose of network operating systems (NOS)","Runs on a server and provides capability to manage users, groups and security applications and data and other networking functions. Facilitates sharefile and printer access across multiple users"
+"# State:
+
+3 functions/features of network operating systems (NOS)","3 of:
+* Centralised servers are stable
+* Security of the network is managed by the server
+* Facilitates remote access to the servers from different locations and types of systems
+* Upgrades using new technologies and hardware are easily integrated into the system
+* Purchase and running costs are high
+* There is a dependency on a central location
+* Regular updates and maintenance are required"
+"# State:
+
+Purpose of mobile OSs",Software platform to run mobile devices. Responsible for determining its functions and features of the device. Determines which third-party apps can run on the device
+"# State:
+
+3 types of mobile OSs","* Android OS - Google's open and free software stack that includes an OS, middleware and key applications
+* iPhone OS/Apple IOS - only available on devices manufactured by apple -derived from Mac OS
+* Windows Mobile - Microsoft OS used in smartphones and mobile devices with or without touchscreens - based on windows CE 5.2 kernel"
+"# State:
+
+Software that is used to help manage, control and maintain the computer system and associated resources",Utility Software
+"# State:
+
+2 examples of utility software, that are not built-in to OSs","2 of:
+* Anti-virus
+* Anti-malware
+* Registry cleaners"
+"# Define:
+
+Application software","Specific programs that are installed onto a computer system or made available via the cloud, for end-users to perform a range of tasks"
+"# State:
+
+2 examples of application software","2 of:
+* Graphics software
+* CAD software
+* Office suite; Microsoft 365
+* Browser software; Google chrome, Firefox"
+"# Define:
+
+Code Development Tools","Tools used by programmers when developing software, enabling them to create, maintain and debug the software they are developing"
+"# Explain:
+
+Integrated Development Environments (IDEs)","Access tools within one central interface, include, at minimum, a source code editor, compiler and debugger and sometimes other tools; class and object browsers and class heirarchy diagrams"
+"# State:
+
+3 examples of tools used by developers (other than an IDE)","3 of:
+* Source code editor
+* Compiler
+* Debugger
+* Assembler
+* Linker"
+
+Question,Answer
+"# Fill The Blank:
+
+Not all .................... which make up a digital system are suitable for all .........................., their environments or the industry sector that they are in","Components, Businesses"
+"# Fill The Blank:
+
+When using a component (software, hardware, .....................) it is important to consider the ...................... and ........................ of the component to make sure it is ....................... and will produce the benefits that the business requires.","Peripherals, Benefits, Drawbacks, Appropriate/Required"
+"# Define:
+
+Feature of a component (software, hardware, peripheral)","Something that a digital system, hardware/software component or peripheral has associated with its functionality"
+"# Define:
+
+Benefit of a component (software, hardware, peripheral)","Outcome/result from using the digital system, component or peripheral"
+"# Define:
+
+Drawback of a component (software, hardware, peripheral)",Something which can have a negative effect on or disadvantage a business
+
+Question,Answer
+"# Explain:
+
+What RAID means and what it is","* RAID - Redundant array of independent disks
+* Combining of multiple disk drives into a single unit (array)"
+"# Fill The Blank:
+
+Because disks in RAID work in ................., RAIDs are more .............. and ................ and reduce ........ loss and improve overall performance","Unison, Reliable, Faster, Data"
+"# Fill The Blank:
+
+The increase in ............ and .................. from using RAID depend on the ......... used","Speed, Reliability, Type"
+"# Explain:
+
+RAID 1","* Also called disk mirroring
+* Two identical sets of disks and used for redundancy
+* If one drive fails, the business can still operate and the broken drive easily replaced with all data copied across from functioning drtive"
+"# State:
+
+1 advantage and 1 disadvantage of RAID 1","**Advantage:**
+* Increase in read performance due to data being able to be read from either of the two functioning drives
+
+**Disadvantage:**
+* Slightly higher rate latency as the data must be written to both drives in the array"
+"# Define:
+
+Redundant/Redundancy",Where a system is still able to function regardless of issues that may occur
+"# Define:
+
+Read Performance",The time taken to open a file from storage
+"# Define:
+
+Rate latency",The amount of time (delay) it takes to send information from one point to the next
+"# Explain:
+
+RAID 5","* Contains at least 3 drives (possibly more) with blocks of data being striped across the multiple drives
+* Parity bits written across each drive after each sequence of saved data
+* Parity checksum is storedo n one drive and used to calculate the value of the parity bits to check whether any data is missing and replace it
+* Usually has its own hardware controller"
+"# State:
+
+1 advantage and 1 disadvantage of RAID 5","Advantage:
+* Even more increased performance to RAID 1 because of data striping because data is spread across the drives and can all be read at once
+
+**Disadvantage:**
+* Can only withstand one disk failure and means other data backups should be implemented"
+"# Explain:
+
+RAID 10","* Combination of disk mirroring and disk striping
+* Requires at least 4 drives and a disk controller
+* Four disks divided into 2 sets of 2 where each set is RAID 1 for two different sets of data"
+"# State:
+
+2 advantages and 2 disadvantages of RAID 10","**Advantages:**
+* Data redundancy due to there being a mirrored image of the data
+* Increased read/write performance because of data striping
+* Rebuild time reduced in the event of a disk failure as long as a mirror image is still available
+
+**Disadvantages:**
+* Does not have parity checking
+* If a total failure of one sub-array occurs, the entire system can crash"
+"# Define:
+
+Data striping",The technique used to store consecutive segments of data (eg: a file) on different physical storage devices
+"# Define:
+
+Parity",A technique that checks whether any data has been lost or overwritten when it is moved from one storage place to another or transmitted between computers on a system
+"# Explain:
+
+What NAS means and what it is","* NAS - Network Attached Storage
+* Storage device that is connected to a network and acts as a central point for the storage, management and access of files"
+"# Fill The Blank:
+
+As the ......... is connected directly to the network, it can only be accessed by ...................... networked devices or users","NAS, Authorised"
+"# Fill The Blank:
+
+NAS is configured with data transfer ................ (DRPs) such as Network File System (NFS) allowing the .......................... of data between devices","Protocols, Transmission"
+"# State:
+
+2 advantages of using NAS","* Easy to add additional storage - just have to add additional disk drives
+* Data recovery and backup is easier - but should never be only backup option"
+"# Explain:
+
+What does SAN mean and what it is","* SAN - Storage Area Network
+* Network of interconnected storage devices accessible by computers and servers
+* Purpose is to store, manage and protect data"
+"# Fill The Blank:
+
+SAN uses .............. storage where data is broken down into ............... and stored seperately with each ............ given a unique identifier and a software program .......................... the requested ................","Block, Blocks, Block, Reassembles, Block"
+"# Fill The Blank:
+
+In SAN, once a request is made, the software identifies the blocks based on their unique identifier and ...................... them into one ......... that is then accessible for the user","Reassembled, File"
+"# Fill The Blank:
+
+Block storage system means data can be accessed more .............. than a standard file-storage system and can be accessed using different types of ...................... .....................","Quickly, Operating Systems"
+"# Fill The Blank:
+
+A .......... network is usually connected using ..........-.......... cabling which is faster than other forms of cabling and uses a protocol known as fibre channel providing better ........................","SAN, Fibre-Optic, Performance"
+"# Fill The Blank:
+
+SANs are ..................... in relation to the technology required and it is also complex to set up, .................. and .......................... meaning that there is the additional cost for a skilled ....................... manager to monitor and maintain the SAN - they are however more easily ................ by adding hard disks and switches","Expensive, Configure, Maintain, Network, Scalable"
+
+Question,Answer
+"# Explain:
+
+2 advantages of connecting devices to form a network","2 of:
+* Reliability - a central servber means data is still available if a device fails
+* Accessibility on a global scale - If network is a WAN, then resources like data, files, info are accessible to the user of a connected device regardless of location
+* Manageability - Server-based networks, individual software applications do not need to be installed on every computer connected to the network, the software is installed and can be upgraded/updated centrally and then be readibly accessible to all connected devices
+* Security - Controlled centrally to mitigate risks against security breaches"
+"# Explain:
+
+2 disadvantages of connecting devices to form a network","2 of:
+* Servers - a server-based network will be reliant on servers for files or mail, meaning its important that networks have powerful computers used as servers which makes it easier to set up and maintain the network
+* Implementation costs - Initial costs are high with hardware (servers, switches etc.)
+* Maintainability - Complex configurations and installations, these tasks can only be completed by experienced network specialists who can demand high wages for their skills and knowledge
+* Security - Security risks especially with large networks with many users that could introduce viruses etc when accessign and sharing resources and files"
+
+Question,Answer
+"# State:
+
+4 advantages of wireless networks","4 of:
+* Quick to deploy
+* Supports increased mobility
+* Lower cost of setup
+* Aids the use of BYOD (bring your own device)
+* simpler maintenance"
+"# State:
+
+4 disadvantages of wireless networks","* Shared medium - can become congested
+* Connectivity is not guaranteed
+* Security for businesses can be a concern
+* Throughput drops further you are from the access point"
+"# Fill The Blank:
+
+WiFi ...... networks can be used to connect devices in an area with no ............. ..................","Mesh, Physical Cabling"
+"# State:
+
+The three common speeds found in the UK of WiFi networks","2.4GHz, 5GHz, 6GHz"
+"# Fill The Blank:
+
+A higher WiFi speed means more ........... at a higher .............","Devices, Speed"
+"# Fill The Blank:
+
+A wireless network is easily ................... without needing major re-configuration. A wireless network can also use ..................... and web-content ....................","Scalable, Application, Filtering"
+
+Question,Answer
+"# State:
+
+5 advantages of wired networks","5 of:
+* Supports high bandwidth to endpoints
+* Dedicated connection if using switch
+* Full duplex operation
+* Supports large distances
+* Stable and not prone to interference
+* Greater security
+* High level of user control"
+"# State:
+
+5 disadvantages of wired networks","5 of:
+* Expensive to install
+* Can take a long time to install
+* Expensive to upgrade
+* Lack of mobility
+* Inconvenient
+* Higher maintanence costs"
+"# Fill The Blank:
+
+Because a wired network uses physical ........ it is reliant on ................... cabling at a location to be used","Cables, Infrastructure"
+"# Fill The Blank:
+
+A wired network will use either ............. or ........ optic cabling to connect devices to the network","Copper, Fibre"
+"# Define:
+
+Full Duplex",Send and receive at the same time
+"# Fill The Blank:
+
+Fibre optics may be used over copper because they are harder to .......",Sniff
+"# Fill The Blank:
+
+A wired network will be much higher ................. than a wireless alternative",Bandwidth
+
+Question,Answer
+"# Define:
+
+LAN",Local Area Network - Connection  of groups of computers and low voltage devices across **short** distances
+"# Define:
+
+WLAN","Wireless Local Area Network - Same as a LAN, but without cables connecting the hosts and servers (often using WiFi)"
+"# Define:
+
+WAN","Wide Area Network - A series of LANs that have been joined together, often not owned by one person"
+"# Define:
+
+WWAN",Wireless Wide Area Network - Use mobile phone signals which are provided by mobile phone services
+"# Define:
+
+PAN",Personal Area Networks- Very small networks connecting devices within one building and used by an individual or small business
+"# Define:
+
+WPAN","Wireless Personal Area Network - Wireless version of a PAN, using bluetooth or WiFi and have limited distance accessibility"
+
+Question,Answer
+"# Define:
+
+Bandwidth","Measurement of how much data can be transfered between one point to another on a network, over a set period of time"
+"# Define:
+
+Speed of a network",Rate at which data can be sent over a network
+"# Fill The Blank:
+
+It is important that the ................... of a network is able to handle the required ................. of all devices connected to the network so that the overall ............ is acceptable for all users","Bandwidth, Bandwidth, Speed"
+"# Define:
+
+Symmetrical bandwidth",Same amount of data can be transmitted in both directions
+"# Define:
+
+Asymmetrical bandwidth",The upload bandwidth is smaller than the download capacity
+"# Fill The Blank:
+
+When installing a network it is important to calculate the amount of .................. required",Bandwidth
+"# State:
+
+2 steps into calculating the required bandwidth for a network","1) Find out how much network bandwidth is available
+2) Find out average usage required by each application
+(both expressed in bytes per second - **B**ps)"
+"# Define:
+
+Latency",Measure of time taken to transmit data from one point to another over a network
+"# State:
+
+What unit latency is measure in",Milliseconds (ms)
+"# Describe:
+
+How distance impacts latency","The further away a user is from the destination of a packet, the longer it will take to be sent"
+"# Fill The Blank:
+
+DSL, cable and fibre optic have a lower latency than ............. because this, although it travels at the speed of light has to travel further than the alternatives and is therefore slower",Satellite
+"# Fill The Blank:
+
+A .......... takes time to process data and therefore latency occurs",Router
+"# Define:
+
+Propogation delay",Length of time it takes the data packets to travel from the device to the server
+"# Fill The Blank:
+
+If a ............ location takes a long time to process data it can become a ................... in a network","Storage, Bottleneck"
+"# Fill The Blank:
+
+An efficient network will have high ................ and low ............","Bandwidth, Latency"
+"# Define:
+
+Bottleneck",Limitation of data flow by a network resources
+
+Question,Answer
+"# State:
+
+What name is given to the computers on a network",Client
+"# Explain:
+
+Briefly, a client-server network
+
+| Client-server Network Model",Server with computers connected to it
+"# Fill The Blank:
+
+The server is used to provide ................. and ............................ to the client computers but is ...................... protected from being accessed at each client
+
+| Client-server Network Model","Services, Resources, Password"
+"# State:
+
+2 common uses of client-server networks
+
+| Client-server Network Model","2 of:
+* Web service
+* Games hosting
+* Private networks"
+"# State:
+
+1 advantage of a client-server network
+
+| Client-server Network Model",Centrally controlled - control of all connected devices is easier
+"# State:
+
+2 disadvantages of a client-server network
+
+| Client-server Network Model","* If the server fails, the whole network is not functional
+* A lot of clients on the network will cause network traffic congestion which can slow the system down"
+"# Explain:
+
+Thin client
+
+| Thin client Network Model",Runs by accessing resources on a central server
+"# Fill The Blank:
+
+A thin client does not have local ....................
+
+| Thin client Network Model",Storage
+"# State:
+
+2 advantages of thin clients
+
+| Thin client Network Model","* Because resources are accessed from central server, operating costs are lower
+* Easier to do maintenance, set security requirements or upgrades because all data is stored on a central server and changes only need changing on a central server
+* Simple to increase size of network (scalability) by adding new thin clients to network"
+"# Explain:
+
+Briefly, peer-to-peer network model
+
+| Peer-to-peer Network Model","No central server, where peers (clients) act as clients and servers to all other peers on the network"
+"# State:
+
+What a P2P network allows users to share
+
+| Peer-to-peer Network Model","* Folders/Files
+* Peripherals"
+"# Fill The Blank:
+
+Each device on the network provides .................... to the network and .................... resources the network provides
+
+| Peer-to-peer Network Model","Resources, Consumes"
+"# True or False:
+
+A P2P network has worse performance than a client-server network
+
+| Peer-to-peer Network Model",False - They have better performance
+"# State:
+
+2 advantages of P2P networks over client-peer networks
+
+| Peer-to-peer Network Model","* Cost of a peer to peer network is lower
+* Easy scalability in comparison"
+
+Question,Answer
+"# Explain:
+
+Differences between a logical and physical topology","Physical: Physical structure and layout of devices on a network; devices, cabels, switches etc.
+Logical: Way data passes from one device to another through the network or how it acts on the network media regardless of physical connections"
+"# Explain:
+
+Star network topology","* Each device is connected to a central device using a point-to-point link.
+* Central hub receives signals from a node and transmits (repeats) the signal to all other connects nodes.
+* The hub manages and controls all network functions"
+"# State:
+
+2 advantages of a star network topology","2 of:
+* Easy to install, wire and reconfigure
+* No disruption to the network when connecting or removing nodes
+* Easy to troubleshoot. This is because all data goes through a central point
+* Faulty equipment such as network cards, media and nodes can be easily isolated"
+"# State:
+
+2 disadvantages of a star network topology","2 of:
+* If the hub fails, the network fails
+* It requires more cabling than many other topologies
+* It can be expensive (mainly due to the cost of the hub)"
+"# Explain:
+
+Mesh network topology","* Often used in WANs
+* Every devices has a point-to-point contact with every other device in a network - fully connected mesh topology
+
+Because the fully connected approach is impractical, a hybrid approach is sometimes used when critical devices are interconnected (partial mesh topology)"
+"# State:
+
+2 advantages of a mesh network topology","2 of:
+* No traffic problems because of the dedicated links
+* It is more robust than other topologies; if there is a failure in one of the links, it does not impact the whole system
+* Data travels down a dedicated line and is more secure
+* Fault detection is easier as there are point-to-point links"
+"# State:
+
+2 disadvantages of a mesh network topology","* There is a 'mesh' of wiring which is difficult to maintain
+* Installation is complex and costly; connection between every node"
+"# Explain:
+
+Tree network topology","* AKA: Star bus topology
+* Groups of star-configured noes are connected to a linear bus (in a tree shape)"
+"# State:
+
+2 advantages of a tree network topology","2 of:
+* Point-to-point wiring for individual segments
+* It supports the expansion of existing networks
+* The network can be reconfigured to emet existing needs
+* Other nodes on the network are not affected if one node fails
+* It provides a hierarchical and central data arrangement of the nodes"
+"# State:
+
+2 disadvantages of a tree network topology","2 of:
+* The length of the network depends on the cable used
+* Network is dependent on the backbone cable - if this fails, the whole network fails
+* The bigger the network, the more complicated it becomes to configure
+* Limit to the length of each segment within the network that is also dependant on the type of cabling used
+* Performance can be slow due to the number of nodes on the network
+* Network traffic can be heavy because data travels from the centre cable
+* Costly and time consuming to implement with complex maintenance requirements"
+"# Explain:
+
+VLAN network topology","* Virtual Local Area Network
+* Logically seperate ut networks (e.g seperate departments in a business)"
+"# State:
+
+2 advantags of using a VLAN network topology","2 of:
+* Provides more security control as each VLAN is a simulated seprate network within a large overall network
+* Latency is decreased
+* Easier to scale upwards or downwards as each area can be addressed in isolation and not impact other areas on the main network
+* Easier to troubleshoot problems on a smalelr network than a larger one"
+"# State:
+
+2 disadvantages of using a VLAN network topology","2 of:
+* Can be more expensive to implement as additional routers may be required to control traffic on large networks
+* Maitenance needs to be carried out using a logical and structured process to maintain existing VLAN segmentation
+* Means that implementation planning can take longer than other, simpler setups"
+
+Question,Answer
+"# Explain:
+
+Internet Service Providers","Companies who privately own the core networks who have contracts with each other to form the large, global network"
+"# Fill The Blank:
+
+Businesses and individuals hold a ............... with an individual ...... to acces the entire ..............","Contract, ISPs, Internet,"
+"# Fill The Blank:
+
+ISPs use the ................ layer and ................. layer of the TCP/IP model to make computer to computer connections and transmit data between them","Internet, Transport"
+"# Explain:
+
+Briefly, the 3 tiers of ISPs","Tier 3: Local ISPs, businesses and homeowners have contracts for these
+Tier 2: Acts as a go-between Tier 1 and 3 ISPs, often regional or country-wide like Vodafone - act same as Tier 1 ISPs but with a wider reach for internet access and will charge tier 3 ISPs
+Tier 1: Global reach across internet, charge tier 2 ISPs"
+"# Explain:
+
+Router",Manage communication between different devices on a network and allows connected devices to access the internet
+"# Fill The Blank:
+
+A wired router requires devices to be connected using .................... cables whereas a ................. router allows for wireless connectivety (but likely with some physical connections available too)","Ethernet, Wireless"
+"# Fill The Blank:
+
+Routers use the ..... ...................... of a connected device to deliver packets to the correct device",IP Addresses
+"# State:
+
+The layer in the OSI model routers operate, and the 3 layers they use","on the network layer and use the network, physical and data-link layers"
+"# Explain:
+
+Why routers are known as self-learning devices",Will automatically identify new devices  connected to the network and ensure additonal devices know of its existence
+"# Fill The Blank:
+
+Routers support ................... and ............................","Filtering, Encapsulation"
+"# True or False:
+
+A network switch is required for internet access","False - a network switch is not required for internet access, but a router is"
+"# State:
+
+Where a network switch is used",Used in large businesses' networks and data centres where the devices are connected using ethernet cables
+"# Fill The Blank:
+
+A switch is used to connect devices ............... in a network and will only transmit packages to the device data is ..................... for","Within, Intended"
+"# Fill The Blank:
+
+A layer .. switch uses the .............. .................. ............ (.......) address of each device so that is can send the data to the correct device and works in the ........-........... layer of the OSI model","Media Access Control (MAC), Data-Link"
+"# Fill The Blank:
+
+A layer .. switch works in the ................. layer of the OSI modeland uses the ..... addresses of the destination device to route packages","3, Network, IP"
+"# Fill The Blank:
+
+Network switches that operate in the ................... layer of the OSI model are usually used to support .............","Network, VLANs"
+
+Question,Answer
+"# State:
+
+Who developed the OSI model and in what year",International Organization for Standardization (OSI) in 1977
+"# State:
+
+7 Layers of OSI model","* Physical
+* Data Link
+* Network
+* Transport
+* Session
+* Presentation
+* Application (User at this end)"
+"# Describe:
+
+Application layer in the OSI model",Protocols for proccess to process communication
+"# Describe:
+
+Presentation layer in the OSI model",Provides common representation of the data transferred between application layer services
+"# Describe:
+
+Session layer in the OSI model",Provides services to the presentation layer to organise it's dialogue and manage the data exchange
+"# Describe:
+
+Transport layer in the OSI model","Services to segment, transfer and reassemble data for individual communications between the end devices"
+"# Describe:
+
+Network layer in the OSI model",Services to exchange individual pieces of data over network being identified between different services
+"# Describe:
+
+Data Link layer in the OSI model",Protocols which describe methods for exchanging data frames between devices over a common media
+"# Describe:
+
+Physical layer in the OSI model","Mechanical, electrical, functional and procedural means to activate, maintain and deactivate physical connections for bit transmission to and from end devices"
+
+Question,Answer
+"# State:
+
+The 4 layers in the TCP/IP Model, in order","Application, Transport, Internet, Network Access/Network Interface"
+"# Explain:
+
+Purpose of application layer",Provides applications with the means to access the services of the other layers and defiens the protocols used by the applications to exchange data
+"# Explain:
+
+Purpose of transport layer",Provides application layer with session and datagram communication services
+"# Explain:
+
+Purpose of internet layer","Provides addressing, packaging and routing functions"
+"# Explain:
+
+Purpose of network access layer",Physical interface between the host system and the network hardware
+"# Fill The Blank:
+
+The ............................... ............... Protocol/Internet Protocol (TCP/IP) is the protocol used for communication beteen computers on the .............. and defines how devices should be .................... to the internet and how data is ............................ between them.","Transmission, Control, Internet, Connected, Transmitted"
+
+Question,Answer
+"# Fill The Blank:
+
+Data that is sent over a network (including the internet) is referred to as .................... where large ................ of data re broken down into smaller .....................","Packets, Packets, Datagrams"
+"# Fill The Blank:
+
+Once datagrams reach their final destination they are .................... as a single file or block of ........................... data","Reassembled, Contiguous"
+"# State:
+
+3 parts of a data packet","* Header
+* Payload
+* Trailer"
+"# Explain:
+
+The **header** in a datapacket",Contains instructions about the data with several parts:
+"# State:
+
+The 9 parts of the header of a data packet","* Originating address - IP address of sender
+* Destination address - IP Of receiver
+* Internet protocol - Defining type of packet being transmitted
+* Size of header and payload
+* Number of hops - Number of routers that the packet will pass through on its journey
+* Time to Live (TTL) - Amount of time it exists within the network before being discarded by the router
+* Flags - Used to inform the router whether the packet can be divided into datagrams
+* Checksum - Used to detect any errors during transmission
+* Packet number - Number of the packet where there is a sequence of packets"
+"# Define:
+
+Contiguous Data",Data that is stored in a collection of adjacent locations
+"# Define:
+
+Time To Live (TTL)",Amount of time or 'hops' that a packet is set to exist inside a network before being discarded by the router - TTL is also used in CDNs caching and DNS caching
+"# Define:
+
+Hops","Refers to number of routers that a packet passes through from its source to its destination. A hop can also be counted when a packet passes through other hardware on a network such as switches, access points and repeeaters - it is dependent on what role the devices have on the network and their configuration"
+"# Explain:
+
+The **payload** of a datapacket",This is the body of the data packet and contains the actual data that is being sent/received
+"# Explain:
+
+The **Trailer** of a datapacket","* Sometimes called footer
+* used to inform the receiving device that it is the end of the packet"
+"# Expain:
+
+What error checking is often done in the trailer/footer of a datapacket","* Cyclic Redundancy Check (CRC)
+* Will add up all 1s in the payload and stores the results as a hexadecimal
+* Upon receiving the packet the device will add up the number of 1s in the payload and compare it with the hexadecimal value stored in trailer
+* When these values match it confirms there was no errors during transmission and if not the receiving devices sends a request to the sender for them to resend the packet"
+"# Explain:
+
+Packet Switching",Where the data packet is divided into smaller data packets and trasmitted individually across the network as opposed to transmitting one large data packet.
+"# Explain:
+
+Why packet switching is done","* Used to reduce the chances of lost packets
+* Facilitates the resending of data packets
+* Reduces transmission latency"
+"# Fill The Blank:
+
+With packet switching, packets are not necessarily .............. along the same path within the network which means packets arrive at the destination in no particular .............. and the destination must ........................... the packets into an appropriate order to be able to retrieve the original message","Routed, Order, Reconstruct"
+"# Fill The Blank:
+
+The TCP/IP model has 4 layers whereas the OSI model has ... layers",7
+"# Fill The Blank:
+
+The OSI model uses a vertical approach and the TCP/IP model uses a ..................... approach",Horizontal
+The TCP/IP model has a ................ orientated approach but the OSI model is based on the funcionalities of the layers,Protocol
+"The TCP/IP model combines the presentation and ............... layers into its application layer and the OSI model differentiates between ........................., services and protocols","Session, Services"
+The TCP/IP model combines the data link and ............. layers and it is called the network layer and the OSI model acts as an interaction .................. between the network and end-user,"Physical, Gateway"
+"The TCP/IP model only has ................................ transmission in the network layer and connection and connectionless transmission is available in the transport layer and in the OSI model, the connection and .................................... transmissions are provided in the network layer and it only provides connection transmission in the .................. layer","Connectionless, Connectionless, Transport"
+
+Question,Answer
+"# Explain:
+
+Briefly, TCP/IP",Transmission Control Protocol/Internet Protocol - A set of standardised rules that allow computers to communicate on a network (suc has the internet)
+"# Explain:
+
+Briefly, DNS","Domain Name System - When accessing a website a user can enter the IP address or use the hostname address, but because IP addresses are not easy to memorise the DNS converts the IP address into a host name than be read easily by users"
+"# Explain:
+
+Briefly, ARP",Address Resolution Protocol - Communication layer protocol that supports the process between the datalink and network layers. Identifies the designated MAC address based on the available IP address
+"# Explain:
+
+Briefly, RDP",Remote Desktop Protocol - Microsoft product that provides users with a graphical user interface (GUI) when connecting to other networked computers
+"# Explain:
+
+Briefly, VNC","Is used for remote desktop sharing and displays the virtual destop of another computer, allowing it to be controlled over a network connection"
+"# Explain:
+
+Briefly, SSH","Secure SHell - Used to operate services over an unsecured network using cryptography. Ity is commonly used by network admins who are required to access, manage and control systems and applications remotely"
+"# Explain:
+
+Briefly, SIP","Sesion Initiation Protocol - Singalling protocol, able to initiate, maintain, adjust and terminate real-time sessions"
+"# Explain:
+
+Briefly, SMB","Server Message Block - This is a network communication protocol that enables the shared access of files, printers and ports between connected nodes on a network"
+"# Explain:
+
+FTP/S",File Transfer Protocol/Secure - Basedo n the client and server model architecture and is used to transfer files between the client and the server on the network
+"# Explain:
+
+Briefly, HTTP/S","Hyper Text Tranfer Protocol/Secure - Used to authenticate a website that the user is attempting to access. Provides secure network communication through the protection of the privacy and integrity of any data that is exchanged. Achieved via encryption of exchanged data
+
+HTTP provides communication but there is no securing of data"
+"# Explain:
+
+Briefly, IMAP","Internet Message Access Protocol - Internet email protocol that stores emails on the mail server, the users then can retrieve the messages and respond to them"
+"# Explain:
+
+Briefly, POP3","Post Office Protocol - Within the application layer, facilitates the retrieval of emails from a remote server to the user's local device. Enables user to view emails offline"
+"# Explain:
+
+Briefly, SMTP",Simple Mail Transfer Protocol - Communication layer protocol that is used to send emails
+"# Explain:
+
+Briefly, SNMP","Simple Network Management Protocol - This collects and organises information associated with the devices that are managed on an IP network. It can modify the information in order to change the behaviour of the connected device. Devices include routers, switches and printers."
+"# Explain:
+
+Briefly, TELNET",Referred to an application protocol which allows for bidirectional interactive communication using a virtual terminal connection
+"",""
+
+Question,Answer
+"# State:
+
+3 types of environments that may be used by an organisation","Physical, Virtual, Cloud"
+
+Question,Answer
+"# Define:
+
+Virtualisation",The technology that enables a single physical hardware system to be separated into multiple simulated environments or dedicated resources
+"# State:
+
+""Software that connects to the hardware and facilitates the splitting of one system into separate and distinct environments referred to as VMs""
+
+| Virtual Environments",Hypervisor
+"# Fill The Blank:
+
+VMs rely on the hypervisor to separate the ........................ of the machine from the hardware and distribute them and hardware that is equipped with a hypervisor is called the ............. and VMs are called .................","Resources, Host, Guest"
+"# Fill The Blank:
+
+The guests treat the resources such as the ........, memory and ............... as a .............. of resources and receive only what they require from the ...................","CPU, Storage, Pool, Operator"
+"# State:
+
+2 examples of types of virtualisation and briefly explain them","2 of:
+* Data virtualisation - Treat data as a dynamic supply, provide processing functions that can bring data together from multiple sources and tranform data and accommodate new data sources
+* Desktop virtualisation - Install multiple OSs onto a single machine, to allow a central admin to install simulated destop environments on very large quantities of physical machines simultaneously - allowing mass configuration, updates etc.
+* Server vritualisation - Allow a server to serve multiple functions at once (involves partitioning)
+* OS virtualisation - Load multiple types of operating system side by side, making multiple accessible on one device reducing hardware costs and increases security as all virtual instances can be monitored
+* Network function virtualisation - Seperate key network functions independent of hardware, allowing them to be packaged together to form a new network, reducing number of physical components required to create multiple independent networks"
+"# State:
+
+5 key features of virtual environments","4 of:
+* Increased security - Manager can control and filter activity of guest's programs; mitigate risk of harmful operations being carried out
+* Managed execution - Execution of sharing, aggregation, emulation and isolation managed from central virtual server
+* Sharing - Creation of separate computing environments within same host reduces number of active servers and limits power consumption
+* Aggregation - Group of hosts are combined and presented to guests as a single virtual host - done with cluster management software
+* Emulation - Guest programs are executed in an environment that is controlled by a virtualisation layer, which allows for completely different environments to the host to be smulated meaning execution of guest programs that require specific characteristics
+* Isolation - Each guest has a separate environment and the VM can filter activities of the guests and mitigate the risk of harmful operations against the host - also allows performance tuning
+* Portability - hardware virtualisation = Virtual image of guest can safely be moved and programming-level virtualisation = binary code representing application components can run on any installation of the corresponding VM"
+
+Question,Answer
+"# Explain:
+
+Efficient use of hardware of virtual environments
+
+| Benefits of using virtual environments","Virtualisation means many instances can be made on one piece of hardware, maximising effective use to a wider variety of guests - reducing costs and effectives increased"
+"# Explain:
+
+Continous availability of virtual environments
+
+| Benefits of using virtual environments",Allows access at any time and easy to move instance from one server to another without shutting down and restarting
+"# Explain:
+
+Simple recovery of virtual environments
+
+| Benefits of using virtual environments","Duplications, backups and recories are much easier with virtual instances where tools are available for nearly real-time backup and mirroring capabilities"
+"# Explain:
+
+Simplified and faster setup of virtual environments
+
+| Benefits of using virtual environments","Compared to building and setting up new physical hardware, virtual environments can be setup quickly within minutes"
+"# Explain:
+
+Easier migration to the cloud for virtual environments
+
+| Benefits of using virtual environments",Most of the data is on one server with virtualisation versus many machines when converting to the cloud
+"# State:
+
+3 benefits of using virtual environments","* Efficient use of hardware
+* Continuous availabilty
+* Simple recovery
+* Simplified and faster setup
+* Easier migration to the cloud"
+"# Explain:
+
+High initial investment costs of virtual environments
+
+| Drawbacks of using virtual environments",Initial setup of servers and storage is higher than a regular installation of a system
+"# Explain:
+
+Risk to data to virtual environments
+
+| Drawbacks of using virtual environments","Data may be hosted on a third part resource (cloud) which could be vulnerable to attacks, unauthorised access"
+"# Explain:
+
+Scalability challenges for virtual environments
+
+| Drawbacks of using virtual environments","Easy to implement, but not in a short period of time because software, security, storage and resource availability have to be considered - can be time-consuming because a third party can be involved"
+"# Explain:
+
+Reduced performance for virtual environments
+
+| Drawbacks of using virtual environments",Virtual environments provides optimal use of resources but additional performance may not available if required by a VE - resources may not be shared equally or be shared depending on the task being carried out - if performance needed is not available then time to complete increases
+"# Explain:
+
+Unintended server sprawl for virtual environments
+
+| Drawbacks of using virtual environments","When more servers are created, the workload to a administrative staff increases because new virtual environments, and therefore virtual servers are created"
+"# State:
+
+3 drawbacks of using virtual environments
+
+| Drawbacks of using virtual environments","* High initial investment costs
+* Risk to data
+* Scalability is challenging
+* Reduced performance
+* Unintended server sprawl"
+
+Question,Answer
+"# Define:
+
+Cloud computing","Outsourcing of IT services and infrastructure, making them accessible remotely via the internet"
+"# State:
+
+Two benefits of using cloud computing models","* Boost productivity
+* Provide organisations a competitive edge"
+"# State:
+
+The four different categories of cloud models","* Public
+* Private
+* Community
+* Hybrid"
+"# Fill The Blank:
+
+Used by a range of .......-users from large organisations to individuals and can be accessed through a digital-device and ......... connection, paying with a .................... or a pay-to-use basis.","User, Internet, Subscription"
+"# State:
+
+Two examples of public cloud organisations","2 of:
+* AWS
+* IBM Cloud
+* Google Cloud"
+"# Explain:
+
+Who uses a private cloud organisation and how it would be restricted","* Used by a specific organisation
+* Can be hosted on site premises or remotely through virtualisation
+* Requires organisation installs and maintains infrastructure, including hardware, software and networking components"
+"# Fill The Blank:
+
+A ............... cloud is one that is designed for and used by a group of organisations working in a particular ................","Community, Industry"
+"# Define:
+
+Hybrid model",Best of both world which incorporates the best aspects of practe and public clouds that integrate with each other
+"# Explain:
+
+IaaS","Infrastructure provided could include a network, servers, storage areas and an OS. This means that the organisation can reduce the costs and physical presence of hardware."
+"# Explain:
+
+PaaS",Includes features of IaaS and builds these to include software (eg: dev tools) but still possible for an organisation to use their own development tools; common in development and testing of web-based software
+"# Fill The Blank:
+
+PaaS means the provider provides the platform, ............... and ................. to develop the software on and the organisation develops and ........... the applications","Hardware, Software, Deploying"
+"# Fill The Blank:
+
+Provides software apps and services and can be accessed from a range of ......... (location ...............) and uses a ................ based service (fixed fee or pay-to-use)","Devices, Independent, Subscription"
+"# State:
+
+Who is responsible for each of the following resources in the IaaS delivery model
+
+* Applications
+* Runtime
+* Data
+* Middleware
+* OSs
+* Virtualisation
+* Servers
+* Storage
+* Networking","* Applications - Subscriber (Organisation)
+* Runtime - Subscriber (Organisation)
+* Data - Subscriber (Organisation)
+* Middleware - Subscriber (Organisation)
+* OSs - Subscriber (Organisation)
+* Virtualisation - Service Provider
+* Servers - Service Provider
+* Storage - Service Provider
+* Networking - Service Provider"
+"# State:
+
+What 2 of the following resources in the PaaS delivery model are the only responsibilities of the subscriber/organisation
+* Applications
+* Servers
+* Runtime
+* Data
+* OS
+* Virtualisation
+* Storage
+* Networking
+* Middleware","Applications, Data"
+"# State:
+
+What 1 thing in the SaaS delivery model is the only responsibility of the subscriber/organisation",The user only (use of the app)
+"# Define:
+
+Runtime",Length of time a computer program takes to run
+
+Question,Answer
+"# Fill The Blank:
+
+DaaS is a ............ computing model that provides ......... management by using the cloud for the storage, ............................., processing and, if required, ......................... of data through a network connection. This can reduce data ............. and data ............","Cloud, Data, Integration, Analytics, Sprawl, Silos"
+"# Fill The Blank:
+
+DaaS happens through ...aaS",S[aaS]
+"# Explain:
+
+How data as a service (DaaS) can be used with data science platforms","At least 2:
+* Provides data that can be used through the data science lifecycle
+* The platforms support scientists when they are exploring and developing ideas and models
+* A data science platform allow the team to collaborate and identify data that has already been gathered easier
+* Explore large data sets and plot it"
+"# Fill The Blank:
+
+Dashboards, also called data ................................. tools that enable the user to view a ............... ........................... of the data. They allow for visual ........................... of performance ................. and the DaaS is an appriopriate platform for it to use for the accessibility of data","Visualisation, Visual Representation, Interpretation, Metrics"
+"# State:
+
+""The vast amounts and variety of data produced""",Data Sprawl
+"# Define:
+
+Data Silos",A group of raw data accessible by one department but not available to the other departments within the organisation
+"# Define:
+
+Data Visualisation",Graphical representation of data
+"# Define:
+
+""The collection, analysing and reporting of information. This can be in relation to a system, department, individual or even profit of an organisation as a whole""",Performance Metrics
+"# Fill The Blank:
+
+The implementation of ............ with a database that stores vast amounts of data will mean accessiblity to a wide range of people who could be in different .......................","DaaS (Data as a Service), Locations"
+"# Fill The Blank:
+
+DaaS enables an ........................ to store big .......... without the necessity to install its own data storage .................","Organisation, Data, Servers"
+"# Fill The Blank:
+
+DaaS supports file .................. because it is all in the cloud as well as ......................... access to multiple users to authorised files","Sharing, Simultaneous"
+"# Fill The Blank:
+
+DaaS file systems restrict users through granting .......................... through the implementation of user and ........... permissions strengthening security of files (which are managed by an ..............................)","Permissions, Group, Administrator"
+
+Question,Answer
+"# State:
+
+4 benefits of using DaaS to an organisation and its stakeholders","4 of:
+* Cross platform transfer
+* Automatic updating of data/files
+* Wide ranging accessibility
+* Reduces the risk of multiple versions of the same data/files existing
+* Enhanced security through access permissions levels, passwords and encryption
+* Reduction in the costs of data maintenance and delivery
+* Facilitates collaboration, regardless of location
+* Allows for easier scalability (up or down) for storage requirements
+* Supports remote working"
+"# State:
+
+3 drawbacks of using DaaS to an organisation and its stakeholders","3 of:
+* Data is transferred over a network, increasing risk of security breaches
+* Time consuming for the transferring of large data sets based on bandwidth restrictions
+* Can be a limitation of available tools as any tool used must be hosted by or compatible with the DaaS platform
+* Compliance with legislation/regulations as sensitive data is located in the cloud, organisations must ensure that they are compliant with the regulation/legislation associated with the country where the DaaS provider is based and origin of data"
+
+Question,Answer
+"# Explain:
+
+Cloud sourcing",Where organisations will outsource business processes to a third party (a service provider)
+"# Fill The Blank:
+
+Subscribers ............ the service providers for services such as .........., .........., SaaS and DaaS.","Pay, PaaS (platform as a Service), IaaS (Infrastructure as a Service)"
+"# State:
+
+One example of a well-known cloud source used by individuals for storage and sharing of data and files",Dropbox
+"# Fill The Blank:
+
+Cloud sourcing is easier for ............. (up or down) and the service ................. is .................... for services are up-to-date and maintained as opposed to the subscribers employing technical teams to do it for them","Scalability, Provider, Responsible"
+"# Fill The Blank:
+
+The market for cloud ............ has rapidly expanded and the smaller ................ providers have to find new innovative ways to retain their share of the ....................","Sourcing, Service, Market"
+"# Define:
+
+Cloud Portability","Ability for organisations to move their applications, platforms and/or data between service providers"
+"# Fill The Blank:
+
+Providers want to '.......-in' their subscribers so do not offer ................... between platforms - this can also stop potential subscribers from ............... up because of these restrictions","Lock, Portability, Signing"
+"# Fill The Blank:
+
+Organisations must consider what cloud computing is most ................. based on their needs and those of other ..........................","Suitable, Stakeholders"
+
+Question,Answer
+"# Explain:
+
+4 points about what digital resilience involves","* Understanding  the risks involved with having a digital environment and identifying how these risks can be mitigated
+* Being able to identify when a problem has occurred and what to do
+* Being able to recover from problems
+* Learning from experience and implementing processes and procedures to mitgate any future occurrences of the same or similar problems"
+"# Fill The Blank:
+
+Strong digital .................. is when organisations manage digital risk and continue to deliver their products/services to stakeholders regardless of the situation",Resilience
+"# Fill The Blank:
+
+With businesses becoming more reliant on ......................, if there is a problem the possibility for ........................ to the functionality of the business increases","Technology, Disruption"
+"# Fill The Blank:
+
+To avoid distruptions when technology goes wrong, businesses must have ........... in place to be able to adapt to problems and continue to function with minimal disruption to the business or .............................","Plans, Shareholders"
+"# Fill The Blank:
+
+When considering their digital ........................, organistions must balance the opportunities for technological .................., business ..................... and security while complying with current ............... and regulation","Resilience, Change, Expanision, Legislation"
+
+Question,Answer
+"# Fill The Blank:
+
+Data ........................... is where the same data is stored in multiple locations, and while it can be accidental, is often on purpose for .................... purposes to allow for data recovery.","Redundancy, Backup"
+"# Fill The Blank:
+
+Another advantage of data .......................... is that it provides a mechanism for improving the ...................... of the data because it can be ........................ across multiple sites","Redundancy, Compared"
+"# Explain:
+
+Briefly, 2 disadvantages of data redundancy","* Data redundancy can cause data inconsistency if it is stored in multiple locations but the data does not match
+* Risk of data corruption due to the transfer and/or storage of data between locations/systems
+* Additional costs required for the storage of the data"
+"# Explain:
+
+Hardware redundancy",Consists of one or more additional compelte hardware systems (eg: additonal servers that can be used in case of failure)
+"# Explain:
+
+Briefly, 3 types of redundancy","* Dynamic - Where only one system is working at a time and in case of faioure an additional system is started so that the business processes can continue with minimum disruption
+* Static - Where systems run in parallel, all carrying out the same processes - results are continually compared to check accuracy where in case of mismatches a predefined algorithm decides the best outcome
+* Hybrid - Combination of dynamic and static hardware redundancy
+
+These can be applied to both hardware and software redundancy"
+"# Explain:
+
+Disadvantages of hardware redundancy","* Means a more complicated system
+* Additional costs for the components involved
+* Redundant systems also have to be updated, upgraded and maintained alongside the main systems (otherwise it will become unreliable and less resilient)"
+"# Explain:
+
+Software redundancy",Where there is additional software that can carry out the same tasks as the current software being used
+"# Explain:
+
+Back-up systems","* Not just backing up data but whole system (OS, software, configs)
+* If incident occurs, business can restore system to a position prior to the incident"
+"# State:
+
+3 types of disaster recovery sites","* Hot site
+* Cold site
+* Warm site"
+"# Explain:
+
+Hot site","* Usually in a different location and runs in parallel to the normal system
+* Replicate primary system and are usually maintained by third party (at a cost)
+* Because they run in parallel they allow prompt restoration of functionality incase of an incident
+* Because these sites have a backup of data, they allow immediate access to up-to-date data without having to source the location of any other data backups
+* Can be in the cloud
+* 'A fully functioning, up-to-date replica in respect to equipment and data'"
+"# Explain:
+
+Cold site","* Cheapest option as it does not involve all facilities needed for hot site
+* Only usually used when critical disaster occurs
+* Only a form of data center so incase of an incident technical expertise will be required to install and configure the computer equipment so that the business can continue to function
+* 'Only have data and none of the equipment for the business environment'"
+"# Explain:
+
+Warm site","* Combination of a hot and cold site
+* Digital equipment is made readily available but data must be restored onto the system
+* Cost wise is between hot and cold sites
+* 'Contains basic equipment used in the business environment but does not include any data'"
+"# State:
+
+4 types of backups","* Full backup
+* Incremental backup
+* Differential backup
+* Mirror backup"
+"# Explain:
+
+Full backup","* Backup of every file and folder in a system
+* More time consuming and requires sufficient space for all of the data
+* Faster when restoring lost data
+* More robust and reliable than alternatives
+* Only suitable if there is large changes to data on a regular basis"
+"# Explain:
+
+Incremental backup","* After creating full backup, only backup data that has changed since last backup
+* Use less storage than full backups but use additional resources/compute to compare states of backups/data
+* More time consuming to restore data from an incremental backup than full backup because it has to analyse the data within the backup to establish the timestamp for when data changed - several incremental backups may be required to restore data"
+"# Explain:
+
+Differential backup","* Data initially does full backup
+* Then will only backup the data that has changed since **last full** backup
+* Easier to recover data as only requires full backup and most recent differential backup"
+"# Explain:
+
+Mirror backup","* It is only a backup of the data, but entire system (OS, applications, configs)
+* If hard drive fails, new HDD can be installed and mirror backup taken from the failed drive and can be restored onto new hard drive
+* Faster than other backup types and create a 'clean' copy without old or outdated files and folders"
+"# State:
+
+4 ways that device hardening can be done","4 of;
+* Disabling unused network ports
+* Strict password management and file permissions
+* Using multi-factor authentication using hardware tokens as well as passwords on networks
+* Updating computer systems with security patches as they become available 
+* Removing all non-essential services and programs
+* Setting time limits on access - can be frustrating for the user to be locked out after a short period of time because they have eg: answered a phone call"
+"# Fill The Blank:
+
+Device ......................... is the methodss or processes used to eradicate any means of attack",Hardening
+"# Fill The Blank:
+
+Careful ................ has to take place when implementing device hardening - the implications to workflow and productivity must be considered as well as the protential for reducing the ............. surface areas of the system","Planning, Attack"

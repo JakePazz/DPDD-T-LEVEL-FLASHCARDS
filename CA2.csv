@@ -1,0 +1,896 @@
+Question,Answer
+"# State:
+
+""True or false value""",Boolean
+"# Define:
+
+Character","""Single character which can be a letter, number or symbol"""
+"# Define:
+
+Integer","""Whole numbers, positive or negative"""
+"# State:
+
+""Any number, with or without decimal places, positive or negative""",Real/Float
+"# Define:
+
+String","""A group of characters stored together"""
+"# Define:
+
+Immutable","""When the value of a number data type changes, a new object is created"""
+
+Question,Answer
+"# Define:
+
+Casting","""Converting a variable from one data type to another"""
+
+Question,Answer
+"# Define:
+
+Data Structures","""Collection of data objects which facilitate the storing and managing of data in a program"""
+"# State:
+
+2 advantages of using data structures","* Optimise memory usage within a system
+* Can be reused and compiled into libraries"
+"# State:
+
+""A collection of data items, can be of different data types and items are accessed using each data items index value""",List
+"# State:
+
+""Contains a group of elements of the same data type""",Array
+"# Define:
+
+Dictionary","""A set of values, each with associated keys. Items are unordered and when accessed by the key, will return the associated value"""
+"# Define:
+
+Index","""A numerical representation of an item's position in a sequence"""
+
+Question,Answer
+"# Define:
+
+Scope","""Where a variable can be accessed within a program"""
+"# Fill The Blank:
+
+A .......... variable is only accessable in a pre-determined part of a program",Local
+"# Fill The Blank:
+
+Two variables can use the same identifier if they are in different .......... because they are in a seperate area in .........","Scopes, RAM"
+"# Fill The Blank:
+
+The scope of a local variable is the ............ where it has been ...........","Subprogram, Declared"
+"# Fill The Blank:
+
+The scope of a global variable is the ............. program",Complete
+"# State:
+
+Where global variables are declared",Start of the program
+"# State:
+
+Where local variables are declared",Declared within subroutines or programming blocks and can only be used within the scope it is declared in
+"# Define:
+
+Snakecase",Where words are delimited using underscores: Variable_a
+"# Define:
+
+Camelcase","All words are started with a capital letter, apart from the first word with no spaces: variableA"
+"# Define:
+
+Pascalcase",words are started by capital letters: VariableA
+"# Define:
+
+Hungarian Notation",Describe the purpose and/ore type of variable at the start followed by a descriptor that states the function of the variable: iStudentMarks
+"# Fill The Blank:
+
+It is important variable names are ................ and easily .................. and understandable.","Consistent, Readable"
+
+Question,Answer
+"# State:
+
+Add Operator",+
+"# State:
+
+Subtract Operator",-
+"# State:
+
+Multiply Operator",*
+"# State:
+
+Divide Operator",/
+"# State:
+
+Integer Division Operator",// (DIV)
+"# State:
+
+Modulus",% (MOD)
+
+Question,Answer
+"# State:
+
+Equal To Operator",==
+"# State:
+
+Not Equal To Operator",!= or <>
+"# State:
+
+Greater Than",>
+"# State:
+
+Greater Than OR Equals",>=
+"# State:
+
+Less Than",<
+"# State:
+
+Less Than OR Equal To",<=
+
+Question,Answer
+"# Explain:
+
+AND",True if **both** are true
+"# Explain:
+
+NOT",Input is **reversed**
+"# Explain:
+
+OR",True if **EITHER** inputs are true
+
+Question,Answer
+"# Fill The Blank:
+
+Python treats files as either ....... or ........... depending on the ............. of the file","Text, Binary, Contents"
+"# State:
+
+When open() is used it requires two parameters, requiring the ........ ........... and .........","File Name, Mode"
+"# State:
+
+4 different modes of opening a file","Append ""a"" - appending (editing) a file
+Create ""x"" - create the specified file
+Read ""r"" - open file for reading
+Write ""w"" - open a file for writing (overwrites current contents)"
+"# State:
+
+How to close a file",{filevariablename}.close()
+"# Fill The Blank:
+
+If when creating a file (using ""x"") and the file ..... then it returns an error",Exists
+
+Question,Answer
+"# State:
+
+3 constructs used when creating algorithms","* Sequence
+* Selection (branching)
+* Iteration"
+"# Define:
+
+Sequence","Running a list of instructions in a strict order, the main logical structure of algorithms and programs"
+"# Define:
+
+Selection",Making a decision to dictate the flow of a program
+"# Define:
+
+Iteration",Repeating a set of instructions
+"",""
+
+Question,Answer
+"# Define:
+
+Sequencing",Order in which the program code is executed
+"# State:
+
+What 'IDLE' stands for",Integrated Development Learning Environment
+"# State:
+
+Why the IDLE is useful",Identifying mistakes; syntax and runtime errors
+"# Fill The Blank:
+
+Not all devices have debuggers, especially not ..... devices. If a device has no debugger then you can use ........... debugging","IoE, Print"
+"# Fill The Blank:
+
+Debugging can be ........ ............ and not ........ to use","Time Consuming, Easy"
+
+Question,Answer
+"# Fill The Blank:
+
+In early versions of ........... there was no ........ statement and developers had to use ............... mapping","Python, Case, Dictionary"
+"# Define:
+
+Dictionary",Iterable data structure built in to Python that contains a series of values with corresponding keys
+"# State:
+
+3 uses of iteration","* Adding numbers
+* Repeating functions
+* Cycling through values"
+"# State:
+
+Statement used to force a loop to stop (even if a condition is true)",break
+"# State:
+
+How to run a block of code after a for or while loop has been completed - that is not needed because it continues anyway",else:
+"# State:
+
+Statement used to stop the current iteration and continue with the next iteration",continue
+
+Question,Answer
+
+Question,Answer
+"# Fill The Blank:
+
+When code does not function how it is intended, it is necessary to ........ it",Debug
+"# State:
+
+Give 3 examples of mistakes that could cause error messages","3 of:
+* Syntax error OR within syntax error:
+* Missing punctuation
+* Typing errors in commands/Python
+* Missing indentations"
+
+Question,Answer
+"# Define:
+
+Function",Code written to perform a specific task and can be used more than once
+"# Define:
+
+Built-in Functions",Functions included in the programming language
+"# Define:
+
+User-defined functions (UDFs)",Functions that can be created by software developers
+"# Define:
+
+Anonymous Function","Also known as lambda functions, functions not declared with the standard keyword ('def' in Python)"
+"# Define:
+
+Method",A function that is part of a class and is accessed using an instance or object of a class
+"# Define:
+
+Arguments",Value that is sent to a function
+"# Define:
+
+Parameter",Variable that is listed inside the parentheses of a function
+"# State:
+
+2 requirements of a procedure","* Name
+* Programming code to perform required task (code block)"
+"# State:
+
+Difference between Procedure & Function","Function: Returns a value and control, compiled before and re-compiled if needed - with different parameter values
+Procedure: Returns the control but **no value**, only compiled once - no values will change, a paramater value once accepted once cannot change"
+
+Question,Answer
+"# State:
+
+Another name for linear search",Serial search
+"# State:
+
+How a linear search functions","Starting at the beginning of the dataset, each value is examined until a match is made"
+"# Fill The Blank:
+
+Binary Search is a ....... search algorithm and works on the principle of ............ and .............","Fast, Divide, Conquer"
+"# State:
+
+What is one requirement of Binary Search",Data is in a sorted format
+"# Fill The Blank:
+
+The search ........... is repeatedly ............. in half. If the middle value is greater than the value of the search then the interval is changed to the ........... half of the array. If the middle value is lower than the value of the search then the interval is changed to the .......... half of the array.
+
+This is .............. until the value is found or the interval is ............
+
+| Steps of binary search","Interval, Divided, Lower, Upper, Repeated, Empty"
+"# State:
+
+3 advantages of using linear search","3 of:
+* List does not have to be ordered
+* Fast performance when searching small to medium lsits
+* Because list is not sorted, elements can be added and deleted - if needed to be sorted re-ordering would be needed
+* Linear search is simpler and easier to implement
+* Can be used on any type of data"
+"# State:
+
+1 advantage of binary search",Faster performance than linear search because the data being searched is halfed at each stage
+"# State:
+
+1 disadvantage of linear search",Very slow when searching lists with large quantitiese of data items
+"# State:
+
+1 disadvantage of binary search",Data must be ordered/sorted first
+
+Question,Answer
+"# Define:
+
+Pre-written code",Code that already exists when developing new software either within your own organisation or from an external source
+"# State:
+
+3 ways that code can be reused","* Using third party libraries
+* Open-sourced frameworks
+* Repurposing code that has been used/developed/written internally"
+"# State:
+
+2 benefits of using pre-written code","* Shorter development time - reduces time needed to develop a solution (python package index) because reduces time planning and writing code
+* Improved end product - add greater functionality with pre-written code"
+"# State:
+
+3 drawbacks of using pre-written code","* Security risks - code could have security vulnerabilities if not tested properly
+* Lack of control - if changes are made to codfe they may have an impact on program being developed because you do not own it
+* Naming conventions - Conventions used within the code and names can be different to a programming language that software is being developed in"
+"# Define:
+
+Open Source","Software where the copyright holder grants users the right to use, edit and distribute the source code"
+"# Define:
+
+Injection Flaws",Allow attackers to relay malicious code through an application to another system
+"# Define:
+
+Cross-site scripting (XSS)","Type of injection, where attackers inject client side scripts so that other users can view them and to bypass access controls; **found on websites or web apps that accept end-user input**"
+
+Question,Answer
+"# Define:
+
+Standard Libraries",Contain reusable sections of code (modules) that can be incorporated into other programs/projects
+"# Fill The Blank:
+
+Built-in functions are pre-.............. functions with a set of statements. When these statements are combined with other statements or ........., they can perform tasks. This means a ........ does not need to create code to perform a particular ................ because it can be selected from the available built-in functions.","Defined, Code, User, Function"
+
+Question,Answer
+"# Define:
+
+Input validation",Checks made to ensure that data entered is sensible and reasonable.
+"# Fill The Blank:
+
+Abnormal inputs or conditions are dealth with using ........... ..................",Error Checking
+"# Fill The Blank:
+
+Error messages must be .......... and provide users with the options available to ............ any issues. This is different to exception handling.","Clear, Resolve"
+"# Define:
+
+Presence Check","Check to see if a required field that should contain data, has been left blank"
+"# Define:
+
+Length Check",Ensures that data entered does not contain fewer or more characters than the specified minimum or maximum number
+"# Define:
+
+Type Check",Ensure that is input is of the correct data type
+"# Define:
+
+Format Check",Used to verify that the data input is of the correct format.
+"# Define:
+
+Range Check",Verify that an inputted value lies between a range of set values
+"# Define:
+
+Check Digit",An extra value transmitted with data to determine if it is correct or not
+
+Question,Answer
+"# Fill The Blank:
+
+It is important software is of good quality to make it more .............. and easier to ...............","Durable, Maintain"
+"# Define:
+
+Reliable and Robust",Code is able to deal with errors during execution and be able to deal with the input from the end user if it is not correct.
+"# Fill The Blank:
+
+If a user inputs invalid data it is important that the program can deal with this and provide an .......... ...................... so they can make changes to solve the issue.",Error message
+
+Question,Answer
+"# State:
+
+2 reasons to use defined style conventions","* Consistent format
+* Maintainability"
+"# State:
+
+The current style convention for Python",PEP8 - Python Enhancement Proposal
+"# State:
+
+4 things that PEP8 provides guidelines for","4 of:
+* Naming conventions/styles
+* Use of comments
+* Use of white space
+* The structure of the code
+* Indentation"
+"# State:
+
+Why it is not possible to enforce the PEP8 convention?",It is an open-source programming language
+"# Fill The Blank:
+
+Names in python must be ........... and ............... to be easy to understand what they represent
+
+| Naming conventions","Logical, Sensible"
+"# Fill The Blank:
+
+Irrelevant or inappropriate .......... can make it difficult to locate .......... during maintanence or ...................
+
+| Naming conventions","Names, Errors, Debugging"
+"# State:
+
+Convention for *constants*
+
+| Naming conventions","Capital single letter, word or words with words seperated by underscores _"
+"# State:
+
+Convention for *functions*
+
+| Naming conventions",Lowercase word or words with words seperated by underscores _
+"# State:
+
+Convention for *module*
+
+| Naming conventions","Short, lowercase word or words with words seperated by underscores _"
+"# State:
+
+Convention for *variable*
+
+| Naming conventions","Lowercase signle letter, word or words with no whitespace or special characters and words seperated by underscores _"
+"# State:
+
+Symbol used to start a comment in python
+
+| Use of comments",#
+"# Fill The Blank:
+
+Comments make code easier to .................. as the meaning of the code is explained
+
+| Use of comments",Maintain
+"# Fill The Blank:
+
+Comments should not explain obvious elements of a program but explain ............ elements
+
+| Use of comments",Implicit
+"# Fill The Blank:
+
+White space helps code look less ................. and helps with ................. and understandibility.
+
+| Use of white space","Cluttered, Readability"
+"# Fill The Blank:
+
+If code contains too much white space then it can be difficult to understand which .................. of code should be read together
+
+| Use of white space",Elements
+"# State:
+
+The PEP8 advice for use of white space when using operators, mathematical, relational or boolean
+
+| Use of white space",Single space each side
+"# Fill The Blank:
+
+If an expression has multiple operators then PEP8 advises to use white space only on the ............ priority ...............
+
+| Use of white space","Lowest, Operators"
+"# State:
+
+2 things that the structure of code will have an impact on
+
+| The structure of code","* Readability
+* Ease of maintanence"
+"# State:
+
+Max line length advised by PEP8
+
+| The structure of code",79 Characters - including comments (because it is easier to read text vertically)
+"# State:
+
+4 examples of elements of code structure
+
+| The structure of code","4 of:
+* White space
+* Indentation
+* Tabes or spaces
+* Blank lines
+* Line breaks"
+
+Question,Answer
+"# Fill The Blank:
+
+Software testing is a check to establish if a software ................ meets the ...................... and is ............ free
+
+| Software Testing","Product, Requirements, Defect"
+"# State:
+
+2 purposes of testing of software
+
+| Software Testing","* Identify errors
+* Find missing requirements/gaps"
+"# Fill The Blank:
+
+Software testing is important because if ...... or errors are not found it could be .................... or sometimes ...........................
+
+| Software Testing","Bugs, Expensive, Dangerous"
+"# Fill The Blank:
+
+Testing ensures ............., reliability and ....................... of the product
+
+| Software Testing","Security, Performance"
+"# State:
+
+3 outcomes of software testing
+
+| Software Testing","* Save time
+* Cost effective
+* Customer satisfaction"
+"# State:
+
+4 benefits of software testing
+
+| Software Testing","* Security - means software can be trusted
+* Cost effective - cheaper than constant fixes later on
+* Product Quality - Ensures that meets client requirements
+* Customer Satisfaction - Ensures they are happy with the product"
+"# True or False:
+
+Compatibility testing is a type of functional testing
+
+| Compatability Testing",False - It is non-functional testing
+"# Explain:
+
+4 forms of compatability testing
+
+| Compatability Testing","4 of:
+* Hardware - Check software compatible with diff. hardware configs
+* Operating System - Ensure that software is compat. with different OSs
+* Software - Ensure compat. with other software
+* Network - Test in network env. variate: bandwith, speed, capacity
+* Browsers- Different browser testing
+* Devices - Different types of device; printers, USB devices, Bluetooth etc.
+* Mobile - Ensure compatible with Android and IOS platforms and mobile OS platforms; must be adaptive and respond to other; input methods, screen orientation, browser types
+* Software Versions - Test to ensure compat. with different versions of software being interacted with
+* Data - Test using data to confirm functionality"
+"# Define:
+
+Backward compatibility
+
+| Compatability Testing",Confirm hardware/software is compatible with older versions of software and hardware already installed or in use
+"# Define:
+
+Forward compatibility
+
+| Compatability Testing",Ensure software/hardware is compatible with new versions of hardware/software
+"# Define:
+
+Beta testing
+
+| Resulting Service (final product)",A form of user acceptance testing performed by real users where a limited number are given access to provide feedback on the quality of the product
+"# Fill The Blank:
+
+Beta testing is used to increase quality through ................... ....................
+
+| Resulting Service (final product)",Customer validation
+"# Define:
+
+Traditional beta testing
+
+| Resulting Service (final product)",Software program is released to target customer and related data is gathered as feedback
+"# Define:
+
+Public beta testing
+
+| Resulting Service (final product)",Where software program is released to the world through online channels with improvements made based on collected feedback
+"# Define:
+
+Technical beta testing
+
+| Resulting Service (final product)",Software is released to a group of employees in a specific organisation to gain feedback
+"# Define:
+
+Focused beta testing
+
+| Resulting Service (final product)",Released to a target audience to collect feedback on specific features of the program
+"# Define:
+
+Post-released beta testing
+
+| Resulting Service (final product)",Released to intended end-users and data is collected and analysed so improvements can be pushed to future releases
+"# Define:
+
+UAT
+
+| Resulting Service (final product)",Process that verifies that a software program works for the end user as intended
+"# State:
+
+4 questions that UAT assesses
+
+| Resulting Service (final product)","* Can the user use the software?
+* Does the end user have difficulty using the software?
+* Does it meet their requirements?
+* Does it function as intended?"
+"# Fill The Blank:
+
+UAT is the ........... before software is released to the use
+
+| Resulting Service (final product)",Last
+
+Question,Answer
+"# Fill The Blank:
+
+Testing ensures a solution, software or network, meets the .....-....... requirements and ............. as intended","End-user, Functions"
+"# Fill The Blank:
+
+......... testing is used to understand the ............ and ...................... for a concept.","Concept, Strengths, Weaknesses"
+"# State:
+
+How concept testing is carried out",Internal/External stakeholders provided with information on the basic concept who then provide feedback which is collated (combined) and analysed to decide if development should be continued
+"# State:
+
+One advantage of concept testing",Save a lot of unnecessary costs in the long term
+"# State:
+
+One disadvantage of concept testing",Can cost lots of time and money
+"# Define:
+
+Unit testing",Where individual components or units of a software program are tested individually
+"# State:
+
+At what phase of a project is unit testing carried out",During development
+"# State:
+
+Two examples that could be tested during unit testing","2 of:
+* Individual function
+* Procedure
+* Method
+* Module
+* Object"
+"# State:
+
+What is another name for unit testing?",White box testing
+"# Define:
+
+White Box Testing",Testing when the internal structure and design of the software is known to the tester (software development team)
+"# Fill The Blank:
+
+........... testing is carried out after all units have undergone unit testing",Integration
+"# Define:
+
+Integration testing",Testing the interface between two software components (units)
+"# Fill The Blank:
+
+Integration testing is used to to test the ............. between units",Interaction
+"# Define:
+
+Big-bang integration
+
+| Types of Integration Testing",All units are put together and tested
+"# State:
+
+""Where lower level units are tested with higher level units and the system is broken down into the different subsytems and the integration between the units in each subsytem is tested""
+
+| Types of Integration Testing",Bottom-up integration
+"# Define:
+
+Top down integration
+
+| Types of Integration Testing","High level units are tested, using simulated low level units, and the low level units are then tested before being integrated and re-tested for functionality"
+"# Fill The Blank:
+
+......... integration is a combination of top-down and bottom-up testing. The ....-level units are tested then the ......-level units are tested and are then tested again once .....................
+
+| Types of Integration Testing","Mixed, Top, Bottom, Integrated"
+"# Fill The Blank:
+
+Mixed integration is effective for ......... products
+
+| Types of Integration Testing",Large
+"# State:
+
+4 things that performance (perf) testing is used to test for","4 of:
+* Speed
+* Response Time
+* Reliability
+* Stability
+* Scalability
+* Resource Usage"
+"# Fill The Blank:
+
+Performance testing is used to ensure any performance issues are ........... and ........... while software is under a specific ...............","Identified, Rectified, Workload"
+"# Define:
+
+System testing",Testing the complete and fully integrated digital solution
+"# Fill The Blank:
+
+System testing is ........ ...... testing and is the ....... testing used to verify the system meets the required ................... and tests the .............. and non-................. requirements","Black Box, Final, Specification, Functional, (Non-) Functional"
+"# Define:
+
+Usability/Acceptance testing
+
+| Forms of system testing",Tests if a solution will make an end user have a positive experience and ensure the system will meet the requirements of the stakeholders
+"# Fill The Blank:
+
+Load/Stress testing is a form of non-................ testing which provides information on how the software/digital system performs under specific ...........
+
+| Forms of system testing","Functional, Loads"
+"# Define:
+
+Regression Testing
+
+| Forms of system testing",Confirm any changes or additions to code haven't had an adverse impact on existing features
+"# Define:
+
+Functionality Testing
+
+| Forms of system testing",Confirms that the software/digital system performs and functions according to the user specifications
+"# Fill The Blank:
+
+................. testing is used when seeing if a program/system can be moved to a new digital system like a new ................ or server. This testing checks that ........ and any ............. can still be accessed","Migration, Platform, Data, Dependencies"
+"# Define:
+
+Compatibility Testing",Test that the software will work on different platforms/environments etc.
+"# State:
+
+""A series of tests using boundary values, a form of black box testing""",Boundary Testing
+"# Define:
+
+Fuzz Testing","Introduce invalid, random or unexpected data as inputs to see what the result is"
+"# State:
+
+""Testing of software when the internal structure and design is unknown to a tester""",Black box testing
+
+Question,Answer
+"# Define:
+
+Automated Testing
+
+| Automated Testing",Using specialised tools to control execution of tests and compare actual results to a list of expected results
+"# Fill The Blank:
+
+.................... tests are repetitive actions and are automated
+
+| Automated Testing",Regression
+"# Fill The Blank:
+
+.................... tests are when non-functional and functional tests are re-run to check any newly created code has not introduced new ...... into the original software","Regression, Bugs"
+"# True Or False:
+
+Automated testing is only used on functional testing",False - Automated testing is used on both non-functional **and** functional testing
+"# State:
+
+Purpose of functional testing
+
+| Functional Testing",Confirm functionality of the software system against the functional requirements (spec)
+"# Describe:
+
+How functional testing is carried out
+
+| Functional Testing",Test each function by providing an input and comparing the output against the functional requirements
+"# Fill The Blank:
+
+Functional testing is primarily ........... box testing
+
+| Functional Testing",Black
+"# State:
+
+4 areas of a program that functional testing checks","4 of:
+* UI
+* APIs
+* Databases
+* Security
+* Client-server communication"
+"# State:
+
+4 factors that should be considered when selecting tools for automated and functional testing","4 of:
+* Compatability with OSs
+* Versatility
+* Compatibility with a variety of platforms
+* Test creation
+* Maintenance
+* Cost"
+
+Question,Answer
+"# State:
+
+The purpose of Root Cause Analysis (RCA)","Get to the 'root' of the problem by asking questions such as:
+* What is the problem
+* What has caused the problem
+* How can the problem be solved"
+"# Fill The Blank:
+
+Once the ......... of a problem is found, an assessment of the situation can take place and consideration given to what lessons have been ................ and how ................ problems can be ................ in the future","Root, Learnt, Similar, Mitigated"
+"# Fill The Blank:
+
+The defined process for RCA should be followed to ensure the analysis is efficient, ................ and ..............","Effective, Useful"
+"# Fill The Blank:
+
+A ................. can be simple with one root cause or more complex with multiple ............ causes and time must be given to establish if all the root causes associated with a problem have been identified","Problem, Root"
+"# Fill The Blank:
+
+The problem solving approach should be ............... for investigating the problem, enabling gathering the ...................... and detailed ..................... as to why and how the problem has occurred.","Planned, relevant, evidence"
+"# Explain:
+
+Why documentation during root cause analysis must be documented",Needs to be sufficient information to support the identification of any potential corrective actions that will be required
+"# Explain:
+
+The five 'whys' method in root cause analysis","When every 'why' question is asked, a further 'why' question is posed until eventually the root cause fo the problem is exposed"
+"# Fill The Blank:
+
+Root cause analysis should be used when an ............ occurs that results in outcomes that ............................... an organisation and its stakeholders","Issue, Disadvantages"
+"# State:
+
+3 examples of criteria that that can be used to determine if an RCA should be carried out","3 of:
+* Failure of service delivery/functional operations
+* Loss of data
+* The occurence of an undefined process
+* System downtime
+* Complaint or feedback from a stakeholder"
+"# Fill The Blank:
+
+Step 1
+Important to ............... what the problem is and the impact that is has on the stakeholders involved. How does it impact on the business .................. and consider if there is a potential ................ of the investigation happening on the stakeholders
+
+| Process of RCA","Identify, Function, Impact"
+"# Fill The Blank:
+
+Step 2
+What ...................... is there available about issues/problems that have occured and when did it happen and what ............... where also being carried out? Gather as much information and data as possible
+
+| Process of RCA","Information, Tasks"
+"# Fill The Blank:
+
+Step 3
+What would be the .......... on the organisation and stakeholders if the problem is not ............ at all - or delayed
+
+| Process of RCA","Impact, Resolved"
+"# Fill The Blank:
+
+Step 4
+Once information and data is gathered, identify what caused the ............... to occur - there could be more than one
+
+| Process of RCA",Problem
+"# Fill The Blank:
+
+Step 5
+Use the ... .......... until you get to the ........... cause of the problem
+
+| Process of RCA","5 Whys, Root"
+"# Fill The Blank:
+
+Step 6
+If there is more than one cause to a problem, use a .............. approach and plan and organise priorities of what should be solved first considering the .......... these changes can have on the organisation
+
+| Process of RCA","Systematic, Impact"
+"# Fill The Blank:
+
+Step 7
+Eliminate the problem by identifying suitable ......................, this will be affected by the prioritisation of tasks and the .....................
+
+| Process of RCA","Solutions, Investigation"
+"# Fill The Blank:
+
+Step 8
+........... the process of changes in the technology and make changes as and when required",Monitor
+"# Fill The Blank:
+
+Step 9
+Establish how and when the system will be .........../monitored to ensure that it is ....................... as required","Tested, Performing"
+
+Question,Answer
+"# Fill The Blank:
+
+When conducting testing on a digital system/software it should be done ................ and not just as a form of end-testing",Iteratively
+"# Fill The Blank:
+
+A test plan should  should be created with the planned tests at the ......... of the project but new tests can be .................. to the test plan during the project","Start, Added"
+"# State:
+
+4 things an effective test plan should do","* Identify the tests to be carried out
+* Describe the purpose of the identified test
+* Identify test data to be used
+* Describe the expected results"
+"# Describe:
+
+'Identify the tests to be carried out'
+
+| Key elements of a test plan","* What should be tested depends on what is being tested
+* Selection of tests in line with current"
+"# Explain:
+
+'Describe the purpose of the identified test' when creating a test plan
+
+| Key elements of a test plan",It is important to ensure that the reason behind the test is clear and informative and tests are not grouped together and are instead identified seperately and the purpose of each test clearly explained
+"# State:
+
+The 6 types of data that must be considered when creating test data
+
+| Key elements of a test plan","* Valid
+* Valid extreme
+* Invalid
+* Invalid extreme
+* Erroneous
+* Absent"
+"# Explain:
+
+What is meant by the term 'expected results' in a test plan and how they are used
+
+| Key elements of a test plan",Ideal result that should be obtained after the test has been carried out; used to compare against actual results to see if there is an issue that needs fixing

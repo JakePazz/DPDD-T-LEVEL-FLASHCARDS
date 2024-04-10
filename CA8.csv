@@ -1,0 +1,270 @@
+Question,Answer
+"# State:
+
+2 examples of what an organisation may store information about","2 of:
+* Employee salaries
+* Employee perks
+* Client lists
+* Trade secrets
+* Sales numbers
+* Customer information
+* News about pending restructuring"
+"# FIll The Blank:
+
+Information the company stores such as ........... ................ and employee .................... must be kept confidential because any ................ relating to this information can have a serious impact leading to possible loss of ........... or business. This could lead to a downturn in the .............. of the organisation which may ultimately lead to failure.","Trade Secrets, Salaries, Breaches, Clients, Health"
+"# Explain:
+
+Why it is important that employee salaries and perks are kept confidential",Different employees carrying out same task may not be paid the same because of different experience or other factors
+"# Fill The Blank:
+
+A client list may inlude individuals but also named ................... of other businesses/organisations and should only be accessed by ..................... if abosolutely necessary","Representatives, Employees"
+"# Fill The Blank:
+
+Customer ........................ usually relates to those who buy goods or services and usually includes ...................... details.","Information, Personal"
+"# Fill The Blank:
+
+If privacy and confidentiality of client lists and customer ....................... are not maintained, the organisation could lose clients or ...................... and people should expect that any organisation storing their personal data will keep it ............ and .................. to limit any breaches.","Information, Customers, Safe, Secure"
+"# Fill The Blank:
+
+The breach of personal data can have an impact on the ...................... and the people whose data has been .....................","Organisation, Leaked"
+"# Fill The Blank:
+
+Any leak of ......... of a pending restructuring can have an impact on the organisation and its internal and external stakeholders, for example if employees here news that could threaten their job they may ...............","News, Leave"
+"# Fill The Blank:
+
+Maximising privacy can be done by using ............... controls, ...................., authorisation and other security procedures to limit the access to the data and information - important data should also be regularly ...................... up","Access, Priveleges, Backed"
+
+Question,Answer
+"# Fill The Blank:
+
+The impact/s of failing to maintain privacy and confidentiality can be wide ranging but includes .................... and ................................... impacts","Financial, Reputational"
+"# State:
+
+4 possible financial impacts of failing to maintain privacy and confidentiality","* Possible payment of compensation
+* Increased costs to improve security and new computer devices, including installation and maintenance
+* Loss of customers leading to loss of revenue
+* Loss of revenue if, for example, invoices are lost"
+"# State:
+
+examples of how reputation can be damaged by failing to maintain privacy and confidentiality","* Business no longer seen as trustworthy
+* Business goes to competitors
+* Lost or corrupt data
+* Limited or halted day to day function - because data is required"
+
+Question,Answer
+"# Define:
+
+Cyber Security","The practice of defending computers, servers, mobile devices, electronic systems, networks and data from malicious attacks"
+"# Fill The Blank:
+
+Every business, industry, organisation and individual can be the target of technical ................ and every digital system can have .............................","Threats, Vulnerabilities"
+"# State:
+
+3 examples of possible technical threats a system could face","3 of:
+* botnets
+* DDoS
+* hacking
+* Malware
+* Social engineering
+* Insecure APIs
+* Use of ad hoc or open networks
+* Eavesdropping/man-in-the-middle attacks"
+"# Fill The Blank:
+
+An API is the ................... that enables two, or more different software applications to .........................","Interface, Communicate"
+"# Fill The Blank:
+
+Over time APIs can become .................. and this can lead to vulnerability that can be .....................","Unsecure, Exploited"
+"# Fill The Blank:
+
+Most data is interconnected, and if one ....... is insecure then it can lead to a ...................... which can also lead to a higher risk of threat to everything this ...... interacts with","API, Vulnerability, API"
+"# Explain:
+
+A wireless ad hoc website (WANET)",A network that is created without a wireless router or an access point and the devices in the network communicate directly with each other
+"# State:
+
+2 main problems with ad hoc networks","* Slow data transmission rate
+* Minimal security"
+"# Explain:
+
+How a man in the middle attack works",When a hacker places themselves in the middle of a communication between two digital devices and/or the users to attempt to steal data and information
+"# Fill The Blank:
+
+An attacker may steal financial ........... or ........-.... details which may be posted to the ............. ........ where they can be bought and used by other attackers","Data, Log-in, Dark Net"
+"# Define:
+
+Hacker",Someone who uses computers to gain unauthorised access to data
+"# Define:
+
+Dark Net",Networks that are not indexed by search engines; they can only be accessed by people with the relevant credentials and authorisation
+
+Question,Answer
+"# Fill The Blank:
+
+Some companys run vulnerability testing (aka ........................ testing) when the digital system is being created and ..................","Vulnerability, Penetration, Installed"
+"# Fill The Blank:
+
+....................... testing when the computer system is running to identify ...................... and steps can be taken to close them before an attack is successful","Vulnerability, Vulnerability"
+"# Fill The Blank:
+
+The biggest threat to digital systems is the ............ so they must be made aware of the vulnerabilities so that they do not become the start of any issues",User
+"# State:
+
+The 2 categories that physical threats can be split into","* Internal
+* External"
+"# Explain:
+
+Two factors affecting the location of physical systems and how these could be mitigated against
+
+| Internal Threats","* Area with limited flammable material to limit fire risk (fire alarm system should be installed)
+* Low humidity/ventilation because heat can become humidity and components can corrode or be damaged to the point of not working as intended - Climate controlled area to regulate humidity and temperature"
+"# Fill The Blanks:
+
+The .............. of digital systems should also be considered as this can also be a ..........................
+
+| Internal Threats","Layout, Vulnerability"
+"# State:
+
+3 examples of physical threats to a system that link to the layout
+
+| Internal Threats","3 of:
+* Door access codes not being updated regularly
+* Using simple access codes such as 1234
+* Reusing access codes on a rotation basis
+* Lack of monitoring of access to secure areas
+* Unnecessary access to secure areas"
+"# Fill The Blank:
+
+When a digital system is installed it can be assumed the hardware and software will be up to date and can be classed as .................
+
+| Internal Threats",Robust
+"# Fill The Blank:
+
+Over a systems lifetime ................. must be carried out. Eventually software will be become ................. or (possibly earlier on) be classed as .................... software because there is limited support for interaction with .................. applications
+
+| Internal Threats","Maintenance, Obsolete, Legacy, Modern"
+"# Fill The Blank:
+
+If software has become legacy software, it may be chosen to replace it with an up-to-date ................. which will impact the business; how will .......... be stored during the transfer?
+
+| Internal Threats","Version, Data"
+"# Fill The Blank:
+
+Hardware can become outdated because of outdated ..................... or a reduction in ........................
+
+| Internal Threats","Firmware, Performance"
+"# Define:
+
+Mitigate
+
+| Internal Threats","If you mitigate against something, you take steps to reduce the likelihood of it happening, or to reduce its impact if it does happen"
+"# Define:
+
+Humidity
+
+| Internal Threats",Amount of water vapour in the air. Higher humidity means more water in the air
+"# Define:
+
+Firmware
+
+| Internal Threats","Code, added at time of manufacturing, written to a hardware device's non-volatile memory - software that allows hardware to run"
+"# Fill The Blank:
+
+How a digital system and ........... are used could lead to a ..............
+
+| Internal Threats","Data, Threat"
+"# Fill The Blank:
+
+Using business devices on unsecured ............. can leave employees vulnerable to attacks
+
+| Internal Threats",Hotspots
+"# Fill The Blank:
+
+Some risk is mitigated through an ........ (if employees follow it) but there is the risk that a ........................... employee could pose a threat to the hardware and software of the digital system.
+
+| Internal Threats","AUP, Disgruntled"
+"# Expain:
+
+2 natural disasters and briefly how they could impact digital systems
+
+| External Threats","* Earthquake could stop internet
+* Floods or tsunamis could destroy and wash away buildings
+* Lightning strikes cause surge or spike in electricity supply"
+"# State:
+
+2 potential impacts of a natural disaster on digital systems","* Any natural disaster could destroy backups
+* Power failure as potential after affects limiting access to data
+
+*This is not an extensive list*"
+
+Question,Answer
+"# State:
+
+4 human threats","* Human error
+* Malicious employees
+* Disguised criminals
+* Targeted attack"
+"# Fill The Blank:
+
+Human threats may be caused by ..................... intent, ........................ or be accidental.","Malicious, Negligence"
+"# Fill The Blank:
+
+Human error can lead to an accidental loss of ....... - the ....... itself rather than a backup","Data, Data"
+"# State:
+
+2 examples of human error","2 of:
+* Accidentally deleting a file containing the data, or shredding the final hard copy of a data file
+* Saving files and folders to a different location
+* Sending emails to the wrong recipients with attachments containing data
+* Accidentally making changes in documents"
+"# State:
+
+2 ways that a company can attempt to minimise the chance of an employee making an error","2 of:
+* Regular employee training
+* High profile reminders to employees
+* Ensuring all policies and procedures are read and understood by employees"
+"# State:
+
+Another name for malicious employees",Turncloaks
+"# Fill The Blank:
+
+Malicious ................ typically user their access details in a malicious and deliberate way to steal ........................... and ............ for financial or ................... reasons","Employees, Information, Data, Personal"
+"# Fill The Blank:
+
+An employee may become malicious due to a ................. engineering attack",Social
+"# Fill The Blank:
+
+A malicious employee who has exited the company and holds a grudge could be difficult to trace because they usually are familiar with ................................ and any ...........................","Procedures, Vulnerabilities"
+
+Question,Answer
+"# State:
+
+3 things cyber security attempts to do","* Act as a deterrent against attackers and hackers
+* Prevent an attack from happening
+* Detect and warn users of the digital systems that an attack is happening"
+"# State:
+
+Main purpose of cyber security","Maintain the confidentiality, integrity and availability (CIA) of digital systems, data and information"
+"# Define:
+
+Confidentiality","Digital systems , data and information resources are protected from unauthorised viewing and access (hacking)"
+"# Define:
+
+Integrity",Means that data is protected from unauthorised changes to ensure that it is reliable and correct
+"# Define:
+
+Availability","Unauthorised users have access to the digital system, data and information they require"
+"# Fill The Blank:
+
+The CIA traid shows the ....................... between the three parts of cyber security, and although they work together they also go against each other when deciding which types of .................. to use.","Relationships, Mitigation"
+
+Question,Answer
+"# Fill The Blank:
+
+................ aims to protect digital systems, ........... and information. Part of this is to ensure these are not ....................... if/when a critical threat happens","Security, Data, Compromised"
+"# Fill The Blank:
+
+Use of ............. means the threat being successful is reduced and identified ........................ of the digital system, data, information and people will also be reduced","Security, Vulnerabilities"
+"# Fill The Blank:
+
+Security must be used to maintain the CIA ........ where there is a strong relationship between all the components and security, this ................. the chance of any component being compromised","Triad, Reduces"

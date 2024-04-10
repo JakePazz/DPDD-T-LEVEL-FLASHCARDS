@@ -1,0 +1,479 @@
+Question,Answer
+"# Fill The Blank:
+
+Although it is important an organisation consider ethics when companies undergo digital transformations it is more difficult on an ............ level because it is these .................. making the decisions, not the organisation","Individual, Individuals"
+"# State:
+
+4 things that can cause ethics to vary","* Individuals
+* groups
+* Religions
+* Cultures"
+"# State:
+
+3 things that any digital professional must consider","* What is ethically correct
+* The ethical training needs that may be required
+* The ethical awareness within their organisation"
+"# Fill The Blank:
+
+It is also important to consider the current .................... within the UK and other countries and the impact and challenges these present to an ................... when increasing its reliance on .........................","Legislation, Organisation, Technology"
+"# Define:
+
+Ethics",The moral principles or rules that govern a person's attitudes and behaviour
+"# Define:
+
+Morals",The principles of what people believe is right or wrong
+"# Define:
+
+Distributed denial of service (DDoS)",When a network is flooded with so much traffic it cannot operate or communicate as required
+"# Define:
+
+Acceptable Use
+
+| Acceptable Use","How organisations and individuals conduct themselves in a responsible, ethical and legal manner. Often leading to an Acceptable Use Policy being created"
+"# Define:
+
+Acceptable Use Policy (AUP)
+
+| Acceptable Use",Set of rules provided by an organisation that promote safe and responsible use of their digital technology
+"# State:
+
+3 things an AUP usually requires a user to agree not to do
+
+| Acceptable Use","* Use of the service for any illegal activities
+* Hack into the security of any computer network or individual system
+* Send spam or junk email to anyone who does not wish to receive it
+* Implement a distributed denial of service (DDoS) attack"
+"# Define:
+
+Autonomous operations
+
+| Autonomous operation",Systems designed to carry out the necessary tasks/processes without the need for/limited human intervention
+"# State:
+
+2 advantages of autonomous systems to a business
+
+| Autonomous operation","* Improve customer esxperience - automated chatbots
+* Allow a business to operate more effectively and efficiently - automatic reording systems"
+"# State:
+
+1 risk to a business when using autonomous systems, including mitigation
+
+| Autonomous operation","Systems can be biased - can be because of bad input into ML, this can have serious negative effects on a business
+
+This can be mitigated by doing a wide range of testing and results being analysed"
+"# Fill The Blank:
+
+Autonomous operation can also have a significant impact on the .................. as jobs may be taken by technology, for example in the ..... industry and others, robots now work on production lines doing ............, ................. etc.
+
+| Autonomous operation","Workplace, Car, 
+2 of: Welding/Assembly/Painting"
+"# Fill The Blank:
+
+Due to the ............. considerations around autonomous operations, there must be an ............... as to whether the technology is ............., ........... and .......... Any autonomous equipment must also be understood by the people around it and a means of overriding it ................ must be implemented if making decisions which could cause harm to ............., ............... or society
+
+| Autonomous operation","Ethical, Assesment, Ethical, Safe, Legal, Manually, Humans, Environment"
+"# Define:
+
+Changes in societal norms in relation to technology
+
+| Changes in societial norms and the behaviours of individuals","How there are changes in beliefs, attitudes and behaviours as part of a social group, or individuals due to the increasing reliance on technology"
+"# Fill The Blank:
+
+People do not like ............... due to a high reliance on digital technology and simultaneously a lack of ...............
+
+| Changes in societial norms and the behaviours of individuals","Change, Knowledge"
+"# State:
+
+3 positive effects on society digital technology has had
+
+| Changes in societial norms and the behaviours of individuals","* Briding the global gap
+* Internet provides access to a wide range of resources
+* Faster and easier communication"
+"# State:
+
+2 negative effects on society digital technology has had
+
+| Changes in societial norms and the behaviours of individuals","* Virtual distancing where people are physically together but detached from each other because they are immersed in technology within their environment
+* Reduced physical interactions through fewer face-to-face meetings and conversations"
+"# Define:
+
+Organisational culture
+
+| Changes in the culture within an organisation","Beliefs, assumptions, values and ways of interacting that contribute to the social and psychological environment of an organisation"
+"# Fill The Blank:
+
+When an organisation's ............ relies on digital technology, employees may just use their own tools rather than ......................... and consulting others, reducing the culture of ................... and prohibiting .............. of the business
+
+| Changes in the culture within an organisation","Culture, Collaborating, Experimentation, Growth"
+"# Fill The Blank:
+
+Although efficiency of devices has improved, it is still important to consider the associated ........... ..................
+
+| Environmental issues",Energy Consumption
+"# State:
+
+1 positive impact of digital technology when considering the environment
+
+| Environmental issues",* Remote working - reduced emmissions from car and air travel for business
+"# State:
+
+3 negative impacts when considering the environment
+
+| Environmental issues","* Technology being more accessible has led to increased power consumption - energy largely from fossil fuels
+* Maufacturing of components uses a lot of non-renewable resources - danger we run out
+* E-waste - contains a lot of biodegradable materials"
+"# Define:
+
+E-waste
+
+| Environmental issues","Abbreviation for electronic waste - relates to all forms of electrical and electronic equipment and their components, that has been discarded with no intention of re-use or re-purposing"
+"# Define:
+
+Globalisation
+
+| Globalisation",Spread of technology across borders
+"# State:
+
+2 examples of challenges countries can face from the globalisation of digital technology
+
+| Globalisation","* Availability of the technology
+* Supporting infrastructure
+* Appropriate level of internet access"
+"# Define:
+
+Diversity
+
+| Inclusion and diversity",Range of people in the workforce
+"# State:
+
+Different ways people can be different that must be included and valued for their differences
+
+| Inclusion and diversity","* Age
+* Religion
+* Ethinicities
+* Genders
+* Sexual Orientations
+* Disabalities"
+"# State:
+
+3 things that everyone feels valued for and safe to do in the workplace
+
+| Inclusion and diversity","* Put forward ideas
+* Raise issues and suggestions
+* Try to do things differently"
+"# State:
+
+The 3 main aims on an equality, diversity and inclusion policy
+
+| Inclusion and diversity","* Provide equality, fairness and respect for all employees (part/full/temp time)
+* Not unlawfully discriminate because of the equality act of 2010 protecting certain characteristics
+* Oppose or avoid all forms of unlawful discrimination"
+"# Fill The Blank:
+
+Employers are ........... allowed to monitor their employees, but they must .............. their privacy while at work, and ............ them about any monitoring arrangement and .............. for it.
+
+| Monitoring of employees","Legally, Respect, Inform, Reason(s)"
+"# Define:
+
+Open source
+
+| Open source and Creative Commons","Software where the source code is made available for any person to inspect, modify and enhance, subject to having an open-source licence"
+"# Define:
+
+Creative commons
+
+| Open source and Creative Commons","International, not for profit, organisation that provides free licences for creators to use when making their work publicly available - licences provide permission for others to use the work under certain conditions"
+"# Define:
+
+Public Domain
+
+| Open source and Creative Commons",Belonging to or being available to the public as a whole
+"# Fill The Blank:
+
+................... such as Data Protection Act within the UK governs what ...................... can do with respect to the .................. and use of data
+
+| The collection and use of data","Legislation, Organisations, Collection"
+"# Fill The Blank:
+
+Known as the '............ ...........' and is a global issue and relates to who have ............ to technology and those who do not.
+
+| Unequal access to technology and/or digital services","Digital divide, Access"
+"# State:
+
+4 things that can cause the digital divide
+
+| Unequal access to technology and/or digital services","* Lack of money
+* Internet access
+* IT literacy
+* Location"
+
+Question,Answer
+"# State:
+
+4 examples of professional organisation's functions
+
+| Use of guidelines from professional organisations","4 of:
+* Issuing a code of conduct to guide professional behaviour
+* Promoting fairer access to the profession to people from all backgrounds
+* Dealing with complaints against professionals and implementing disciplinary procedures
+* Setting and assessing professional examinations
+* Providing support for continuing professional development (CPD)
+* Publishing professional journals or magazines
+* Providing networks for professionals to meet and discuss their field of expertise
+* Representing their members in lobbying government about relevant legislation
+* Providing careers support and opportunities for students, graduates and people already working in the profession"
+"# Define:
+
+Code of conduct
+
+| Use of guidelines from professional organisations","Collection of written rules, principles, values, employee expectations, behaviours and relationships that organisations believe are important and significant to ensure successful business operations"
+"# Fill The Blank:
+
+A code of conduct serves as a ................. for ........... decision making within an organisation
+
+| Use of guidelines from professional organisations","Framework, Decision"
+"# Fill The Blank:
+
+A code of conduct acts as a ................. tool for internal and external stakeholders about the values of an organisation and also informs customers, employees and suppliers how to expect to be ..................
+
+| Use of guidelines from professional organisations","Communication, Treated"
+"# Fill The Blank:
+
+A code of conduct provides .................. for employees, customers and other stakeholders and confirms what is most ............. and desirable with respect to relationships, interactions and the organisation's ................ perspective
+
+| Use of guidelines from professional organisations","Guidance, Valued, Global"
+"# Fill The Blank:
+
+When setting an organisational .......... for design and development of digital systems it is important to include a sense of ........ and consider the .......-......... of larger stakeholders and ..........
+
+| Strategic planning and decisions","Strategy, ethics, well-being, Society"
+"# Fill The Blank:
+
+An organisation will usually appoint a ......... of ............... who oversee strategy to make sure that it stays aligned with the organisation's ............ and .............
+
+| Strategic planning and decisions","Board of directors, Ethics, Values"
+"# State:
+
+3 things that, when digitall transforming an organisation, are important for the long-term plan
+
+| Strategic planning and decisions","* Implementation of new technologies
+* Integrated digital media channels
+* Smart ways of working in a digital environment using the available technology"
+"# State:
+
+4 things a strategic plan document
+
+| Strategic planning and decisions","* Mission
+* Vision
+* Values of the organisation
+* Long-term goals and how they will be achieved"
+"# State:
+
+Why a thought out strategic plan is crucial in supporting growth of the business and success
+
+| Strategic planning and decisions",It informs the organisation and it's employees how best to respond to opportunities and challenges
+"# Fill The Blank:
+
+It is important to include ........... in strategic planning to ensure an organisation's ethos and ........ are considered and all ............ should be considered
+
+| Strategic planning and decisions","Ethics, Values, Stakeholders"
+"# State:
+
+4 key ethical considerations included in any strategic planning
+
+| Strategic planning and decisions","* Stakeholder participation
+* Organisational Values
+* Individual Values
+* Managing Change"
+"# State:
+
+Any change in strategy has an impact on an organisation's structure and can be manged in different ways. State 3 other things that are important to consider
+
+| Strategic planning and decisions","3 of:
+* Who will gain from the change?
+* Who will not gain from the change?
+* Is the change worth the risk?
+* How will the organisation work with those affected by the change in order to help them make the transition?
+* How will the organisation work with those who cannot make the transition?"
+"# Define:
+
+Stakeholder",Anyone with an interest in a business or an organisation
+"# State:
+
+What internal policies communicate
+
+| The content of internal policy documents",Organisation's values and expectations with respect to the behaviours and the performance of its employees
+"# Fill The Blank:
+
+Internal policy documents are often called .................. policies and define what is ................... and ....................... behaviour in the workplace
+
+| The content of internal policy documents","Workplace, Acceptable, Unacceptable"
+"# State:
+
+2 examples of internal policies
+
+| The content of internal policy documents","2 of:
+* Annual leave and sickness
+* IT security and data protection
+* Maternity, paternity and parental leave
+* Smoking
+* Dress code
+* Whistleblowing
+* Bullying and harassment
+* Health and safety
+* Social media
+* Acceptable use
+* Diversity and inclusion"
+"# Define:
+
+Company Culture
+
+| Company culture and how this is established, communicated and sustained","Shared values, beliefs and expectations that assist in guiding, motivating and informing the actions of its workforce"
+"# Fill The Blank:
+
+A good company culture can lead to good .................. ..................... and a happy, motivated workforce means a more .................... workforce and employees are less likely to look for ......... elsewhere","Leadership behaviours, Effective, Jobs"
+"# Define:
+
+Leadership behaviours
+
+| Company culture and how this is established, communicated and sustained",The mannerisms and actions that make people effective leaders
+"# Fill The Blank:
+
+Communication in a company should not be .........-...........
+
+| Company culture and how this is established, communicated and sustained",One-sided
+"# State:
+
+2 things people in the workplace should be allowed to do
+
+| Company culture and how this is established, communicated and sustained","* Put their ideas/suggestions forward for consideration in relation to working processes and practices - employees are usually the ones that can notice needs for change
+* Give feedback on current company culture - positives and negatives"
+"# Fill The Blank:
+
+It is important a company provide ................... to help their workforce protect and maintain their ............. which encourages a positive company culture
+
+| Company culture and how this is established, communicated and sustained","Resources, Health"
+"# Fill The Blank:
+
+What 2 things could a new digital systems cause employees to be concerned about
+
+| Company culture and how this is established, communicated and sustained","* Job security - losing their job
+* Having to learn new skills"
+"# Fill The Blank:
+
+A company should ..................... well with employees to reduce concern in employees from change and get ............... from employees on these changes to analyse and improve
+
+| Company culture and how this is established, communicated and sustained","Communicate, Feedback"
+"# State:
+
+4 key factors in fostering a positive company culture
+
+| Company culture and how this is established, communicated and sustained","* Clear, inclusive and engaging explanations of the company's culture and its goals
+* Mutual respect between the management team and the rest of the workforce
+* Continuous communication between management and the workforce
+* Transparency and prompt communication of potential changes
+* Development of workforce participation by encouraging them to put forward ideas, suggestions and concerns
+* Provision of resources that will support the health and wellbeing of the workforce"
+"# Define:
+
+Whistleblower
+
+| Whistleblowing",A worker who reports wrongdoing that has a negative impact on other people and is in the public interest
+"# State:
+
+What protects a whistleblower
+
+| Whistleblowing",Whistleblowers are protected by the law meaning they cannot be treated unfairly or lose their job due to reporting a wrongdoing
+"# State:
+
+4 examples of whistleblowing complaints
+
+| Whistleblowing","* Criminal offence (e.g fraud)
+* Danger of health and safety
+* Risk of or physical damage to the environment
+* Organisation is breaking the law
+* Someone is covering up a wrongdoing
+* There has been miscarriage of justice"
+"# Fill The Blank:
+
+Whistleblowing complaints cannot include ................ grievances unless it is in the ............ interest
+
+| Whistleblowing","Personal, Public"
+
+Question,Answer
+"# Define:
+
+Situational awareness",Knowing what is going on around you
+"# State:
+
+The 3 levels of situational awareness","Level 1 - hear, see, become aware using observational techniques
+Level 2 - Understanding what you have become aware of
+Level 3 - Using what you have understood to inform future actions"
+"# State:
+
+""Being able to establish a person's normal behaviour in the working environment to be aware of when they are out of character""
+
+| Observational Techniques",Observing Normal Behaviour
+"# Explain:
+
+Awareness of co-workers
+
+| Observational Techniques","Be aware of your co-workers and be able to notice if something appears wrong - stressed, ill etc. and be able to offer help if needed"
+"# Explain:
+
+Recognising change or abnormal behaviour
+
+| Observational Techniques",Being aware of normal behaviour allows you to be immediately aware if there is a change and future actions are determined by what you believe to be the cause
+
+Question,Answer
+"# Fill The Blank:
+
+An increase in use of digital technology has change the way that people and ...........   .................. and collaborate in the ........................ and on a personal level","Society, Connect, Workplace"
+"# Fill The Blank:
+
+There are positive impacts from digital technologies with increased levels of ............... and ............. interaction in relation to ........, social interaction and .......................","Communication, Social, Time, Boundaries"
+"",""
+"# Fill The Blank:
+
+With modern communication, digital, communication platforms we can talk to people in other countries and learn about their ................. and countries expanding our own ........................ and understanding. There is also new opportunities for ...................","Culture, Knowledge, Learning"
+"# Fill The Blank:
+
+An increase in digital technology has also had negative impacts such as excessive use  has lead to reduced ............. and ..................... development and sometimes .......... and .............. wellbeing","Cognitive, Behavioural, Mental, Physical"
+"# Fill The Blank:
+
+Increased digital technology in the workplace can result in ................... of jobs and threatens job ...................","Fragmentation, Security"
+"# Define:
+
+Cognitive Development","How we think, explore and work things out. Development of our knowledge, skills, understanding and ability to solve problems"
+"# Define:
+
+IoT","Internet of Things - System of interrelated, internet-connected objects that collect and transfer data over a network without human intervention"
+"# State:
+
+4 pillars of IoT","People
+Processes
+Data
+Things"
+"# State:
+
+One way that people have connected to the internet has changed in recent years",Wearable technologies/Smart devices
+"# Fill The Blank:
+
+IoT has revolutionised the way organisations manage their businesses, for example .............. are used in warehouses by businesses like Amazon to be able to predict ................... and minimise ....... and improve safety. This convenience of online shopping has however had a negative effect on ........ ............ shops","Sensors, Failures, Risk, High Street"
+"# Fill The Blank:
+
+Data is maximised to get more useful information for ................. making, with huge amounts of data gathered through IoT that is used for improving ..................... and .................... Data can take many forms and can be gathered from many types of organisations, but primarily ......... .........","Decision, Operations, Functionality, Social Media"
+"# Fill The Blank:
+
+Digital ............. benefits from how IoT helps in .................... social media marketing","Marketing, Automating"
+"# Define:
+
+Things",Physical devices and objects connected to the internet and each other for intelligent decision making
+"# Fill The Blank:
+
+The Internet of ................ is the connection of ............. objects which could be sensors, devices and more  - often Machine to ................. communication technology","Everything, Physical, Machine"
+"# State:
+
+3 ways data that IoT provides can be analysed and used","* Automate work processes and streamline workflow
+* Develop visualisation patterns of usage
+* Enable organisations to effectively compete in a continuous changing business environment"

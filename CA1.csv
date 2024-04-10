@@ -1,0 +1,270 @@
+Question,Answer
+"# Define:
+
+top-down approach",Technique used to solve problems where the problem is broken down into smaller and smaller problems until an easily solved problem is defined.
+"# Fill The Blank:
+
+The ...... .........  approach divides a problem into multiple smaller problems which can be used to individually code each module.",Top Down
+"# Fill The Blank:
+
+When using the top down approach, the problem is ........... until it cannot be done so any further. This approach uses a ............. process to break down large problems.","Decomposed, Stepwise"
+"# Fill The Blank:
+
+Each level in the top down approach shows a different level of ....... due to ................","Detail, Abstraction"
+"# Define:
+
+Computational Thinking",A method of problem solving where possible solutions are developed and presented in a way that can be understood by humans and computers
+"# Define:
+
+Abstraction",Removing characteristics that are not needed to focus on essential characteristics
+"# Fill The Blank:
+
+The bottom up approach, starts with the ........... part (module) of the problem. These modules are then .............. until the complete problem is solved.","Smallest, Combined"
+"# Guess The Keyword:
+
+Combination of modules when using the bottom up approach",Integration
+"# True or False:
+
+The top down approach cannot contain redundant information.",False
+"# True or False:
+
+When using the bottom up approach, redundancy can be eliminated",True
+"# Multiple Choice:
+
+The top down approach is better suited to:
+1) Procedural orientated programming
+2) Object orientated programming",1) Procedural orientated programming
+"# Multiple Choice:
+
+The bottom up approach is better suited to:
+1) Procedural orientated programming
+2) Object orientated programming",2) Object orientated programming
+"# State:
+
+2 uses of the top down approach in development","2 out of:
+* Module documentation
+* Test case creation
+* Code implentation
+* Debugging"
+"# State:
+
+One use of the bottom up approach in development",Testing
+"# Fill The Blank:
+
+The ............. approach breaks down a problem into lots of smaller components (modules) to be developed individually which is less daunting. These modules then work together to provide a solution to the initial problem.",Modularisation
+"# Fill The Blank:
+
+Modularisation is often used in .......... ............ programming languages",Object Orientated
+
+Question,Answer
+"# State:
+
+The four techniques, also know as pillars, in computational thinking","Decomposition, Pattern Recognition, Abstraction, Algorithms"
+"# Define:
+
+Decomposition",Breaking a complex problem into smaller and more manageable seperate parts
+"# Fill The Blank:
+
+When a problem is decomposed, each part can be .........., .......... and .............. individually","Developed, Tested, Evaluated"
+"# Fill The Blank:
+
+The solutions to each individual problem/module can be much simpler and easier to ................... than the larger overall problem",Understand
+"# State:
+
+What problem solving approach uses decomposition?",Top-down
+"# Fill The Blank:
+
+When decomposition is complete then each sub-problem should be at the same...",Level of Detail
+"# State:
+
+2 advantages of decomposition","* Different people can work on different sub-tasks, modules, which can be integrated to make the final solution
+* Maintanence of the final software solution can be completed at modular level"
+"# Fill The Blank:
+
+Step 1) Identify and describe the ............... and ................ It is important in this stage that the correct ......... ......... are used relating to the ...............
+
+| Steps of Decomposition","Problems, Processes, Technical Terms, Industry"
+"# State:
+
+2 disadvantages of decomposition","* The sub-problems may not correctly combine to solve the initial problem
+* If the initial problem is not fully understood, it can be difficult to decompose"
+"# Fill The Blank:
+
+Step 2) .......... down the problem into seperate .........
+
+| Steps of Decomposition","Break, Tasks"
+"# Fill The Blank:
+
+Step 3) ............. the tasks and subtasks. .................. should be made to enable a third party to implement a solution to the problem
+
+| Steps of Decomposition","Describe, Documentation"
+"# Fill The Blank:
+
+Step 4) ..............; Most software is made with a .......... and tasks are usually divided between team members
+
+| Steps of Decomposition","Communicate, Team"
+
+Question,Answer
+"# State:
+
+2 Emerging technologies that use pattern recognition","2 of:
+* Facial Recognition
+* Voice Recognition
+* Automated Transport"
+"# Fill The Blank:
+
+Step 1) Identifying and interpreting ................. elements in ................ or ..................
+
+| Steps of Pattern Recognition","Common, Problems, Systems"
+"# Fill The Blank:
+
+Step 2) Identifying and interpreting common ..................... in problems or systems
+
+| Steps of Pattern Recognition",Differences
+"# Fill The Blank:
+
+Step 4) .............. patterns that have been identified
+
+| Steps of Pattern Recognition",Describing
+"# Fill The Blank:
+
+Step 5) Making .............. based on ............. patterns
+
+| Steps of Pattern Recognition","Predictions, Identified"
+
+Question,Answer
+"# Define:
+
+Abstraction",Process of removing or filtering characteristics that are not needed in order to focus on essential characteristics
+"# Fill The Blank:
+
+Step 1) Identify what ................. is required to solve the problem, understand ........ this information is important and the .......... it is required in
+
+| Steps of Abstraction","Information, Why, Format"
+"# Fill The Blank:
+
+Step 2) Carry out abstraction to .......... out the unrequired information
+
+| Steps of Abstraction",Filter
+"# State:
+
+What 6 elements must each layer of abstraction show","* Inputs
+* Outputs
+* Variables
+* Constants
+* Key processes
+* Repeated processes"
+
+Question,Answer
+"# Define:
+
+Algorithm",A well-defined set of step-by-step instructions to solve a problem
+"# Fill The Blank:
+
+An algorithm is language ..................",Independent
+"# State:
+
+Give 4 requirements of an algorithm","* Clear
+* Clear defined outputs and inputs
+* Simple
+* Language independent"
+"# State:
+
+3 advantages of an algorithm","* Easy to understand by anyone
+* Step by step representation of a solution to a given problem
+* Initial problem is broken down into steps, which means it is easier to convert into code"
+"# State:
+
+2 disadvantages of algorithms","* Can be time consuming to create
+* Some constructs can be difficult to represent"
+"# State:
+
+The 4 ways an algorithm can be represented","* Flowchart
+* Written Description
+* Pseudocode
+* Program Code"
+"# Define:
+
+Flowchart",Graphical diagram that represents an algorithm which can be used to solve a problem
+"# State:
+
+2 advantages of using a flowchart to represent an algorithm","* Flow of the algorithm can be seen clearly
+* Flowcharts are created using a standardised set of symbols so can be interpreted and understood by many people"
+"# State:
+
+2 disadvantages of using a flowchart to represent an algorithm","* Can become large and difficult to follow when representing a large program
+* Changes to design may result in the flowchart being amended or redrawn"
+"# Fill The Blank:
+
+Written descriptions should be in ............... language or plain English. There is no set of ........ to follow when using written description but they should be ........, ......... and contain few/no specific .........","Natural, Rules, Clear, Simple, Details"
+"# State:
+
+2 advantages of using a written description to represent an algorithm","* No formal syntax, so many people can create a written description
+* Automatic and natural to use 'proper' English"
+"# State:
+
+2 disadvantages of using a written description to represent an algorithm","* Temptation to create a complete description (complicating it)
+* Failure to include every step required"
+"# Define:
+
+Pseudocode",An informal description that shows the flow of an algorithm and follows a similar structure to high level languages
+"# State:
+
+3 advantages of using pseudocode to represent an algorithm","3 of:
+* Can be converted into programming code with only minor changes to obey syntax of the language
+* Can be easy to follow and understand even if errors are present in the pseudocode
+* Changes can be added in quickly
+* Can act as a link between the algorithm and the final program
+* Explains the purpose of each line of code"
+"# State:
+
+2 disadvantages of using pseudocode to represent an algorithm","* Can be time consuming to write clear and well structured pseudocode to write the final program code
+* Can be difficult to see the logical flow of the program"
+"# Define:
+
+Program Code",Code written to solve the problem which follows the rules of a selected programming language
+"# State:
+
+3 advantages of using (draft) program code to represent an algorithm","* Very probable the person creating the algorithm will have programming knowledge
+* Not necessary to use the correct syntax
+* All the required constructs will be available to be included in draft code"
+"# State:
+
+2 disadvantages of using program code to represent an algorithm","* Easy to begin creating draft code but end up creating the final program code
+* Full decomposition may not be completed"
+"# Define:
+
+Dry Run",Manually working through the code to trace the value of variables
+"# Define:
+
+Trace Table",Tool used to test or dry run algorithms to make sure no logical errors occur while calculations are being processed
+"# State:
+
+2 ways to test/check an algorithm works","* Visual Check
+* Trace Table"
+"# State:
+
+2 advantages of using pre-written/library code","2 of:
+* Save development time
+* Save testing time
+* Will be optimised (more efficient and error free)"
+"# State:
+
+1 disadvantage of using pre-written/library code",It may not be exactly what is required and may require editing to work for an unique problem
+"# Fill The Blank:
+
+A ........... check can be used to determine the purpose of the algorithm using pseudocode",Visual
+
+Question,Answer
+
+Question,Answer
+"# State:
+
+Correct syntax for a REPEAT statement in pseudocode","REPEAT
+{command}
+UNTIL {expression}"
+"# State:
+
+Correct syntax for a IF statement in pseudocode","IF {expression} THEN
+{command}
+END IF"
