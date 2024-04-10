@@ -17,14 +17,6 @@ Each classroom is one content area from 1 to 8, with a deck per subsection (some
 <li><a href="https://www.brainscape.com/packs/ca-8-21734425">CA8</a></li>
 </ul>
 
-<style>
-
-#links {
-  list-style-type: none;
-}
-
-</style>
-
 ## Missing areas
 
 ### In Progress
