@@ -7,14 +7,14 @@ I have provided both the links to the brainscape classes containing decks for ea
 Each classroom is one content area from 1 to 8, with a deck per subsection (some have been combined because they are small or combined in the book) but if you want to make changes to the content of the flashcards, make a copy of the class on brainscape, and you should be able to do so.
 
 <ul id="links">
-<li><a href="https://www.brainscape.com/packs/ca-1-21734418">CA1</a></li>
-<li><a href="https://www.brainscape.com/packs/ca-2-21734419">CA2</a></li>
-<li><a href="https://www.brainscape.com/packs/ca-3-21734420">CA3</a></li>
-<li><a href="https://www.brainscape.com/packs/ca-4-21734421">CA4</a></li>
-<li><a href="https://www.brainscape.com/packs/ca-5-21734422">CA5</a></li>
-<li><a href="https://www.brainscape.com/packs/ca-6-21734423">CA6</a></li>
-<li><a href="https://www.brainscape.com/packs/ca-7-21734424">CA7</a></li>
-<li><a href="https://www.brainscape.com/packs/ca-8-21734425">CA8</a></li>
+<li><a href="https://www.brainscape.com/p/51M1Y-LH-CXUDU">CA1</a></li>
+<li><a href="https://www.brainscape.com/p/51M1Y-LH-CXUDV">CA2</a></li>
+<li><a href="https://www.brainscape.com/p/51M1Y-LH-CXUDW">CA3</a></li>
+<li><a href="https://www.brainscape.com/p/51M1Y-LH-CXUDX">CA4</a></li>
+<li><a href="https://www.brainscape.com/p/51M1Y-LH-CXUDY">CA5</a></li>
+<li><a href="https://www.brainscape.com/p/51M1Y-LH-CXUDZ">CA6</a></li>
+<li><a href="https://www.brainscape.com/p/51M1Y-LH-CXUE0">CA7</a></li>
+<li><a href="https://www.brainscape.com/p/51M1Y-LH-CXUE1">CA8</a></li>
 </ul>
 
 ## Missing areas
