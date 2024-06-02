@@ -3,6 +3,8 @@ Flashcards made for use with the core papers for the UK's T Level in Digital Pro
 
 I have provided both the links to the brainscape classes containing decks for each content area subsection (with some combined) as well as the csv files directly to make it easier to download the files for importing into a different platform.
 
+_If unsure if something is factual, please check with other resources available to you as I can't gaurantee I made no factual errors (and report it as an issue and I can fix it here too)_
+
 ## Links
 Each classroom is one content area from 1 to 8, with a deck per subsection (some have been combined because they are small or combined in the book) but if you want to make changes to the content of the flashcards, make a copy of the class on brainscape, and you should be able to do so.
 
